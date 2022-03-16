@@ -1,0 +1,441 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+
+/*Rules: IDs big*/
+
+/*Primary color:     color: rgb(0, 140, 255);
+/*Secondary     color: rgb(0, 204, 255);
+/* BG:           rgba(19, 19, 19, 0)
+
+
+/* I. */
+/* I. 1. BASICS*/
+
+html, body {
+    width: 100%;
+}
+
+
+body {
+    background-color: rgb(19, 19, 19);
+
+    color: white;
+    font-size: 2vw;
+
+    overflow-x: hidden;
+}
+
+#NavBar {
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(0.5vw);
+    padding-left: 10vw;
+    margin-top: 0;
+    width: 100vw;
+    height: 4vw;
+    left: 0vw;
+}
+
+#fixed_width_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 55vw; /*Wegen des Padings der Butttins*/
+    height: 5vw;
+    justify-content: space-between;
+    /* background-color: beige; */
+    z-index: 99;
+}
+
+Button {
+    font-size: 1.7vw;
+    font-family: "Jura", sans-serif;
+    color: rgb(0, 140, 255);
+
+    background-color: rgb(255, 255, 255, 0);
+    box-shadow: none;
+
+    border-color: rgb(0, 140, 255);
+    border-radius: 0.6vw;
+    border: 0.2vw;
+    border-style: solid;
+
+    margin-top: 3vw;
+    margin-bottom: 4vw;
+
+    display: inline-block;
+    padding: 0.3vw 0.8vw 0.4vw 0.8vw;
+    max-width: 20vw;
+    min-width: 4vw;
+    cursor: pointer;
+}
+
+Button:hover {
+    color: rgb(225, 0, 255);
+    border-color: rgb(225, 0, 255);
+}
+
+
+.NavButton{
+    font-size: 1.8vw;
+    font-family: "Jura", sans-serif;
+    color: rgb(0, 140, 255);
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: none;
+    border: 0ch;
+    margin: 0.1vw 0.1vw 0.1vw 0.1vw;
+    padding: 0.1vw 0.1vw 0.1vw 0.1vw;
+    text-decoration: none;
+}
+
+.NavButton:hover {
+    color: rgb(225, 0, 255);
+}
+
+
+/* I. 2. TYPOGRAPHY */
+.interactive_object {
+    color: rgb(0, 140, 255);
+}
+
+/* h1 {
+    font-family: 'Saira';
+    font-style: "Regular";
+    font-size: 10vw;
+    line-height: 10vw;
+    padding: 0 0 0 0;
+    margin-top: 0;
+} */
+
+h2 {
+    font-family: "Saira";
+    font-style: "Regular";
+    Font-size: 2.5vw;
+    line-height: 2.5vw;
+    margin-top: 0;
+    margin-bottom: 5vw;
+    color: white;
+    background-color: rgb(0, 140, 255);
+    backdrop-filter: blur(0.5vw);
+    position: relative;
+    left: -10vw;
+    padding: 0.3vw 1vw 0.45vw 10vw;
+    border-radius: 0.2vw;
+    display: inline-block;
+    max-width: 40vw;
+    min-width: 5vw;
+}
+
+#Splash > h2 {
+    display: block;
+    width: 45vw;
+}
+
+h3 {
+    font-family: "Jura", sans-serif;
+    font-style: "semi-bold";
+    font-size: 1.7vw;
+    line-height: 1.7vw;
+    padding: 0 0 0 0;
+    margin-top: 0;
+}
+
+.default {
+    Font-family: 'Jura', sans-serif;
+    color: white;
+    Font-size: 1.5vw;
+    Line-height: 130%;
+    text-align: Left;
+    vertical-align: Top;
+    text-align: justify;
+}
+
+.small {
+    Font-family: 'Jura';
+    color: white;
+    Font-size: 1.2vw;
+    Line-height: 1.2vw;
+    text-align: Left;
+    vertical-align: Top;
+    margin-top: 0;
+}
+
+/*I. 3. ICONS & LINKS*/
+
+.big_icon {
+    height: 2vw;
+    margin-right: 0vw;
+}
+
+small_icon {
+    height: 1.5vw;
+    margin-left: 1.5vw;
+}
+
+
+/*I. 4. CONTAINERS, HIGHTS, MARGINS*/
+.flex_row_space_between {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.flex_row_right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vw;
+    justify-content: flex-end;
+}
+
+.justify {
+    justify-content: space-between;
+}
+
+.align_items_start {
+    align-items: start;
+}
+
+.align_items_center {
+    align-items: center;
+}
+
+.height_1point5vw {
+    height: 1.5vw;
+}
+
+.height_2vw {
+    height: 2vw;
+}
+
+.mb_2point5vw {
+    margin: 0 0 2.5vw 0;
+}
+
+.height_3vw {
+    height: 3vw;
+}
+
+.height_4vw {
+    height: 4vw;
+}
+
+.height_5vw {
+    height: 5vw;
+}
+
+
+/*I. 5. SPECIAL ELEMENTS*/
+
+/* I.5.1 Card - Grid */
+.card {
+    padding-top: 0vw;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+
+    display: grid;
+    grid-template-columns: 1fr, 2fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 1.2vw;
+    grid-row-gap: 0.5vw;
+}
+
+.name {
+    grid-column: 1;
+    grid-row: 1;
+    height: 1.7vw;
+    align-items: start;
+
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    /* background-color: aqua; */
+}
+
+.links {
+    grid-column: 2;
+    grid-row: 1;
+    align-items: flex-end;
+    /* background-color: blue; */
+}
+
+.explanation {
+    grid-column: 1 / 3;
+    grid-row: 2;
+    margin-top: 0;
+    align-items: start;
+    /* background-color: blanchedalmond; */
+}
+
+/* I.5.2 Section -Grid */
+.two_columns_grid {
+    display: grid;
+    grid-template-columns: 37vw 37vw;
+    grid-template-rows: auto;
+    grid-gap: 2vw 6vw;
+}
+
+.two_columns_grid >h2 {
+    grid-column: 1 / 3;
+    grid-row:    1;
+}
+
+/* I.5.3 Interactive*/ /*YEEES!!!!!*/
+/* Der verzögerungseffekt */
+
+h2_interactive > h2[open] summary ~ * {animation: sweep .7s ease-in-out;}
+
+@keyframes sweep {
+  0%    {opacity: 0; margin-left: -20px}
+  100%  {opacity: 1; margin-left: 0px}
+}
+
+.h2_interactive {
+    padding-left: 0vw;
+}
+
+.h2_interactive h2:hover {
+    color: white;
+}
+
+.h2_interactive > .cards {
+    display: none;
+}
+
+.h2_interactive:hover .cards { /*irgendwo in #support*/
+    display: block;
+}
+
+.h2_interactive:hover .big_icon {
+    animation-name: turn_over;                /** Name der Animation **/
+    animation-duration: 0.5s;               /** Dauer der Animation **/
+    animation-fill-mode: forwards;
+    transition: ease-out; /** Anzahl der Wiederholungen **/
+}
+
+@keyframes turn_over {
+    from {transform: rotateZ(0deg)}
+    to {transform: rotateZ(180deg)}
+}
+
+
+/* II. SECTIONS*/
+/*II. 0.*/
+
+section {
+    width: 100vw;
+    padding: 5vw 10vw 0vw 10vw;
+    margin: 0vw 0vw 5vw 0vw;
+}
+
+#Splash {
+    height: 100vh;
+    min-height: 30vw;
+    display: flex;
+    flex-direction: row;
+    gap: 15vw;
+    padding-top: 8vw;
+}
+
+#Splash > .left {
+    width: 40vw;
+    padding: 5vw 0 0 0;
+    justify-content: flex-start;
+}
+
+#Splash > .right {
+    width: 40vw;
+    padding: 0 0 0 0;
+}
+
+#main_illustration {
+    height: 80vh;
+    min-height: 20vw;
+    position: absolute;
+    bottom: 5vw;
+    right: 8vw;
+}
+
+/*II. 1.*/
+#support_and_ubscribe {
+    overflow-x: hidden;
+}
+
+
+/*II.2. Contact*/
+
+#Contact {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+
+    padding: 10vw 10vw 10vw 10vw;
+
+    width: 100vw;
+
+    overflow-x: hidden;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 60vw;
+    padding: 0 10vw 0 10vw;
+    flex-wrap: 1vw 2vw;
+}
+
+label {
+    Font-family: 'Jura';
+    color: white;
+    Font-size: 1vw;
+    Line-height: 1vw;
+    letter-spacing:0.05vw;
+    text-align: Left;
+    vertical-align: Top;
+    margin-top: 0;
+    margin-bottom: 0.5vw;
+}
+
+input, textarea {
+    Font-family: 'Jura', sans-serif;
+    border-radius: 0.6vw;
+
+    background-color: rgba(0, 140, 255);
+    height: 1.5vw;
+    padding: 0.8vw;
+    margin-bottom: 1.5vw;
+
+    border-width: 0.2vw;
+    border-color: rgb(0, 140, 255, 1);
+    border-style: solid;
+}
+
+textarea {
+    min-height: 10vw;
+}
+
+input:hover {
+    border-color: rgb(0, 140, 255);
+    background-color: white;
+
+    border-color:rgb(225, 0, 255);
+    border: 0.2vw;
+    border-style: solid;
+}
+
+textarea:hover {
+    border-color: rgb(0, 140, 255);
+    background-color: white;
+
+    border-color:rgb(225, 0, 255);
+    border: 0.2vw;
+    border-style: solid;
+}
