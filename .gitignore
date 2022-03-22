@@ -8,3 +8,4 @@
 !/**/*.svg
 
 **/__archive__*
+.idea/
