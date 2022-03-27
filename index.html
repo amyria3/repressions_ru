@@ -170,17 +170,25 @@
         </section>
 
         <section id="contact">
-            <h2><mark>Hey! Wir freuen uns auf Deine Rückmeldung!</></h2>
             <form method="post">
-                <label>Wie dürfen wir Dich ansrpechen?:</label>
-                <input type="text" name="name">
-                <label>E-Mail oder Telefonnummer:</label>
-                <input type="email" name="email">
-                <label>Betreff:</label>
-                <input type="text" name="betreff">
-                <label>Deine Nachricht :</label>
-                <textarea rows="7" name="text" required></textarea>
-                <label>Falls wir uns bei Dir zurückmelden soll überprüfe bitte nochmal, ob Du eine Email / Telefonnummer hinterlassen hast.</label>
+                <span>
+                    <label for="name">Wie darf ich Dich ansprechen?:</label>
+                    <input type="text" name="name" id="name">
+                </span>
+                <div>
+                    <label for="email">E-Mail oder Telefonnummer:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <label for="betreff">Betreff:</label>
+                    <input type="text" name="betreff" id="betreff">
+                </div>
+                <div>
+                    <label for="text">Deine Nachricht:</label>
+                    <textarea rows="7" id="text" name="text" required ></textarea>
+                </div>
+                <label>Falls ich mich bei Dir zurückmelden soll überprüfe bitte nochmal, ob Du eine Email / Telefonnummer
+                    hinterlassen hast.</label>
                 <button type="submit">Abschicken!</button>
             </form>
         </section>
