@@ -815,10 +815,10 @@
     form {
         display: flex;
         flex-direction: column;
-        max-width: 80vw;
+        width: 80vw;
         padding: 0 0 0 0;
         flex-wrap: 1vw 2vw;
-        margin-top: 10vw;
+        margin-top: 10vw 5vw 10vw 5vw;
         margin-bottom: 3vw;
     }
 
@@ -847,7 +847,7 @@
         border-color: rgba(0, 140, 255, 1);
         border-style: solid;
 
-        min-width: 50vw;
+        width: 70vw;
     }
 
     textarea {
@@ -895,8 +895,8 @@
         position: fixed;
         top: 0;
         backdrop-filter: blur(0.5vw);
-        padding-left: 15vw;
-        padding-right: 15vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
         margin-top: 0;
         width: 100vw;
         height: 6vw;
