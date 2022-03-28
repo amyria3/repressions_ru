@@ -166,31 +166,34 @@
         </section>
 
         <section id="other_projects">
-            <h2><mark>Andere projekte aus Leipzig</></h2>
+            <h2><mark>Andere projekte</></h2>
         </section>
 
         <section id="contact">
-            <h2><mark>Hey! Wir freuen uns auf Deine Rückmeldung!</></h2>
-            <form method="post">
-                <span>
-                    <label for="name">Wie darf ich Dich ansprechen?:</label>
-                    <input type="text" name="name" id="name">
-                </span>
+            <h2><mark>Kontakt</></h2>
+            <form method="post" id="form_contact">
+
                 <div>
-                    <label for="email">E-Mail oder Telefonnummer:</label>
+                    <label for="name">Wie sollen wir Dich ansprechen?:</label><br>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div>
+                    <label for="email">E-Mail oder Telefonnummer:</label><br>
                     <input type="email" name="email" id="email">
                 </div>
                 <div>
-                    <label for="betreff">Betreff:</label>
+                    <label for="betreff">Betreff:</label><br>
                     <input type="text" name="betreff" id="betreff">
                 </div>
                 <div>
-                    <label for="text">Deine Nachricht:</label>
+                    <label for="text">Deine Nachricht:</label><br>
                     <textarea rows="7" id="text" name="text" required ></textarea>
                 </div>
-                <label>Falls ich mich bei Dir zurückmelden soll überprüfe bitte nochmal, ob Du eine Email / Telefonnummer
-                    hinterlassen hast.</label>
-                <button type="submit">Abschicken!</button>
+                <div>
+                    <label>Falls wir uns bei Dir zurückmelden sollen überprüfe bitte nochmal, ob Du eine Email / Telefonnummer
+                        hinterlassen hast.</label>
+                    <button type="submit">Abschicken!</button>
+                </div>
             </form>
         </section>
     </body>
