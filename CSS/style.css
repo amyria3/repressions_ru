@@ -288,8 +288,8 @@ input:focus {
         line-height: 2.4vw;
         letter-spacing: 0vw;
 
-        margin-top: 0 Auto Auto Auto;
         padding: 0 0 0 0;
+        margin: 0 0 1vw 0;
 
         text-align: start;
     }
@@ -392,7 +392,7 @@ input:focus {
 
         grid-template-rows: Auto 1fr;
         grid-column-gap: 1.2vw;
-        grid-row-gap: 0.5vw;
+        grid-row-gap: 2vw;
     }
 
     .name {
@@ -406,12 +406,15 @@ input:focus {
         margin-top: 0;
         margin-bottom: 0;
 
+        align-items: flex-start;
+
         /* background-color: aqua; */
     }
 
     .links {
         grid-column: 2;
         grid-row: 1;
+
         align-items: flex-start;
         /* background-color: blue; */
     }
