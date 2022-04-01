@@ -26,6 +26,12 @@ body {
     overflow-y: scroll;
 }
 
+#NavBar {
+
+    background-color: rgba(23, 23, 28, 0.1);
+    backdrop-filter: blur(20px);
+}
+
 .NavButton {
     font-family: 'Source Sans Pro';
 
@@ -184,6 +190,8 @@ input:focus {
 /*Navigation start*/
     #NavBar {
 
+        min-height: 4.8vw;
+
         position: fixed;
         top: 0;
 
@@ -191,9 +199,7 @@ input:focus {
         padding-left: 10vw;
         padding-right: 10vw;
 
-        backdrop-filter: blur(0.5vw);
-
-        z-index: 99;
+        z-index: 100;
     }
 
     #NavBarDiv {
@@ -581,6 +587,8 @@ input:focus {
 /*Navigation start*/
     #NavBar {
 
+        min-height: 6vw;
+
         position: fixed;
         top: 0;
 
@@ -588,9 +596,10 @@ input:focus {
         padding-left: 5vw;
         padding-right: 5vw;
 
-        backdrop-filter: blur(0.5vw);
+        overflow-y: visible;
+        overflow-x: visible;
 
-        z-index: 99;
+        z-index: 100;
     }
 
     #NavBarDiv {
@@ -607,8 +616,6 @@ input:focus {
         justify-content: space-between;
         flex-direction: row;
         align-items: flex-end;
-
-        backdrop-filter: blur(0.5vw);
 
         z-index: 99;
     }
@@ -967,8 +974,6 @@ input:focus {
         width: 100vw;
         padding-left: 5vw;
         padding-right: 5vw;
-
-        backdrop-filter: blur(0.5vw);
 
         z-index: 99;
     }
