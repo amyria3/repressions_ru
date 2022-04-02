@@ -1456,7 +1456,7 @@ input:focus {
         text-align: start;
         vertical-align: top;
 
-        max-width: 65vw;
+        max-width: 86vw;
         /* background-color: rgba(127, 255, 212, 0.514); */
     }
 
@@ -1574,23 +1574,26 @@ input:focus {
 
         display: grid;
 
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 86vw;
+        grid-template-rows: repeat(Auto);
 
         overflow-x: visible;
     }
 
     #Splash .first {
-        grid-column-start: 1;
-        grid-column-end: 5;
+        grid-column-start: 1 / 2;
         grid-row-start: 1;
         grid-row-end: 2;
         overflow-x: visible;
+
+        position: relative;
+        top: -5vw;
         /* background-color: rgba(0, 255, 255, 0.562); */
     }
 
     #Splash .right {
-        grid-column-start: 2;
-        grid-column-end: 6;
+        grid-column-start: 1 / 2;
+        grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end: 3;
         overflow-x: hidden;
@@ -1598,8 +1601,8 @@ input:focus {
     }
 
     #Splash .third {
-        grid-column-start: 1;
-        grid-column-end: 5;
+        grid-column-start: 1 / 2;
+        grid-column-end: 2;
         grid-row-start: 3;
         grid-row-end: 4;
 
