@@ -952,7 +952,7 @@ input:focus {
     }
 }
 
-@media screen and (max-width:640px) {
+@media screen and (min-width: 341px) and (max-width:640px) {
 
     /* I. */
     /* I. 1. BASICS*/
@@ -972,8 +972,8 @@ input:focus {
         top: 0;
 
         width: 100vw;
-        padding-left: 5vw;
-        padding-right: 5vw;
+        padding-left: 7vw;
+        padding-right: 7vw;
 
         z-index: 99;
     }
@@ -1322,6 +1322,354 @@ input:focus {
 
     textarea {
         min-height: 10vw;
+    }
+
+    #Contact button {
+        float: right;
+    }
+}
+
+@media screen and (max-width:340px) {
+
+    /* I. */
+    /* I. 1. BASICS*/
+
+    html, body {
+        width: 100%;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /*Navigation start*/
+    #NavBar {
+
+        position: fixed;
+        top: 0;
+
+        width: 100vw;
+        padding-left: 7vw;
+        padding-right: 7vw;
+
+        z-index: 99;
+    }
+
+    #NavBarDiv {
+
+        position: fixed;
+        top: 0;
+
+        width: 86vw;
+
+        padding-bottom: 3vw;
+        padding-top: 2vw;
+
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: flex-end;
+
+        backdrop-filter: blur(0.5vw);
+
+        z-index: 99;
+    }
+
+    #NavBar .spacer {
+        min-width: 3vw;
+        max-width: 5vw;
+    }
+
+    .slash {
+        width: 1vw;
+    }
+    /*Navigation End*/
+
+    .NavButton{
+
+        font-size: 2.3vw;
+
+        border-style: none;
+
+        margin: 0.1vw 0.1vw 0.1vw 0.1vw;
+        padding: 0.1vw 0.1vw 0.1vw 0.1vw;
+
+        cursor: pointer;
+    }
+
+    /*Buttons*/
+    button, a.jump {
+        font-size: 4vw;
+
+        border: 0.1vw;
+        border-radius: 0.9vw;
+        border-style: solid;
+
+        margin-top: 5vw;
+        margin-bottom: 6vw;
+
+        display: inline-block;
+        padding: 2vw 6vw 2vw 6vw;
+
+        max-width: 50vw;
+        min-width: 7vw;
+
+        cursor: pointer;
+    }
+
+    /* I. 2. TYPOGRAPHY */
+    h1 {
+        font-size: 8vw;
+        line-height: 8vw;
+
+        z-index: 90;
+    }
+
+    h2 {
+        font-size: 7vw;
+        line-height: 7vw;
+        letter-spacing: Auto;
+
+        margin: 0 0 5vw 0;
+        padding: 0 2vw 0 0;
+
+        text-align: start;
+
+        max-width: 86vw;
+        min-width: 30vw;
+    }
+
+    h3 {
+        font-size: 6vw;
+        line-height: 6vw;
+        letter-spacing: 0vw;
+
+        margin: 0 Auto Auto Auto;
+
+    }
+
+    .default {
+        font-size: 4vw;
+        line-height: 7vw;
+        letter-spacing: 0vw;
+
+        text-align: start;
+        vertical-align: top;
+
+        max-width: 65vw;
+        /* background-color: rgba(127, 255, 212, 0.514); */
+    }
+
+    .small {
+        font-size: 3.5vw;
+        line-height: 5vw;
+        letter-spacing: 0.1vw;
+
+        margin-top: 0;
+
+        text-align: left;
+    }
+
+    /*I. 3. ICONS & LINKS*/
+    .small_icon {
+        display: block;
+
+        height: 6vw;
+        width: 6vw;
+
+        padding-right: 1vw;
+    }
+
+    /*I. 4. CONTAINERS, HIGHTS, MARGINS*/
+    .flex_row_space_between {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .flex_row_right {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5vw;
+        justify-content: flex-end;
+    }
+
+    /*I. 5. SPECIAL ELEMENTS*/
+    /* I.5.1 Card - Grid */
+    .card {
+        margin-top: 0 Auto 2vw Auto;
+
+        display: grid;
+
+        grid-template-columns: 80vw;
+        grid-template-rows: repeat(Auto);
+
+        gap: 3vw;
+    }
+
+    .name {
+        grid-column: 1;
+        grid-row: 1;
+
+        display: block;
+
+        align-content: center;
+        justify-content: start;
+        text-align: start;
+        /* background-color: aqua; */
+    }
+
+    .links {
+        grid-column: 1;
+        grid-row: 3;
+
+        align-content: start;
+        justify-content: start;
+
+        position: relative;
+        top: -4vw;
+        /* background-color: blue; */
+    }
+
+    .explanation {
+        grid-column: 1;
+        grid-row: 2 / 3;
+        margin-top: 0;
+
+        align-items: start;
+
+        max-width: 86vw;
+        /* background-color: blanchedalmond; */
+    }
+
+    /* I.5.2 Section -Grid */
+    .two_columns_grid {
+        width: 86vw;
+        display: flex;
+        flex-direction: column;
+
+        gap: 8vw;
+    }
+
+    .two_columns_grid > h2 {
+        grid-column: 1 / 3;
+        grid-row:    1;
+    }
+
+    /* II. SECTIONS*/
+    /*II. 0.*/
+
+    section {
+        width: 86vw;
+        margin: 10vw 7vw 5vw 7vw;
+        overflow-x: visible;
+    }
+
+    /*SPLASH GRID*/
+    #Splash {
+
+        padding-top: 10vw;
+
+        display: grid;
+
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+        overflow-x: visible;
+    }
+
+    #Splash .first {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        overflow-x: visible;
+        /* background-color: rgba(0, 255, 255, 0.562); */
+    }
+
+    #Splash .right {
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        overflow-x: hidden;
+        /* background-color: rgb(149, 153, 148); */
+    }
+
+    #Splash .third {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+
+        padding-top: 5vw;
+        /* background-color: rgba(199, 255, 94, 0.356); */
+    }
+
+    #what_can_i_do > div {
+        margin-bottom: 3vw;
+    }
+
+    #Splash h2 {
+        text-align: left;
+        margin: 0 0 3vw 0;
+    }
+
+    /*II. 1.*/
+    #support_and_subscribe {
+        overflow-x: hidden;
+    }
+
+    /*II.2. Contact*/
+    #Contact {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-between;
+
+        padding: 10vw 5vw 10vw 5vw;
+
+        width: 100vw;
+
+        overflow-x: hidden;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        max-width: 86vw;
+        margin: 0vw 0vw 0vw 0vw;
+    }
+
+    label {
+        font-size: 4vw;
+
+        line-height: 4vw;
+        letter-spacing:0.1vw;
+        text-align: left;
+
+        vertical-align: top;
+    }
+
+    input, textarea {
+
+        font-size: 4vw;
+        line-height: 4.5vw;
+
+        border: 0.1vw;
+        border-radius: 1.2vw;
+        border-style: solid;
+
+        padding: 1.5vw 2.5vw 1.5vw 2.5vw;
+        margin-top: 2vw;
+        margin-bottom: 5vw;
+
+        width: 80vw;
+    }
+
+    textarea {
+        min-height: 20vw;
     }
 
     #Contact button {
