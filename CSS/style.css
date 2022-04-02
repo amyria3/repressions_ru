@@ -26,6 +26,10 @@ body {
     overflow-y: scroll;
 }
 
+#Burger {
+    display: none;
+}
+
 #NavBar {
 
     background-color: rgba(23, 23, 28, 0.1);
