@@ -308,17 +308,23 @@ input:focus {
         width: auto;
 
         display: flex;
+        align-items: flex-end;
         flex-direction: column;
         position: relative;
-        left: -10vw;
+        right: -10vw;
+    }
+
+    .structure > h3 {
+        padding-right: 10vw;
     }
 
     .line {
-        height: 0.2vw;
+        height: 0.15vw;
         background-color: rgba(0, 140, 255, 0.6);
         position: relative;
         top: 1.5vw;
-        width: 50vw;
+        width: 20vw;
+        border-radius: 0.2vw;
     }
 
     h3 {
@@ -326,9 +332,7 @@ input:focus {
         line-height: 0.2vw;
         letter-spacing: 0vw;
 
-        margin-left: 10vw;
-
-        text-align: start;
+        text-align: end;
 
         overflow-x: visible;
     }
