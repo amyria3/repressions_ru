@@ -97,10 +97,17 @@ h2 {
 }
 
 h3 {
+    font-family: 'Italiana', sans-serif;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+h4 {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 200;
     color: white;
 }
+
 
 .default {
     font-family: 'Source Sans Pro', sans-serif;
@@ -293,8 +300,41 @@ input:focus {
         min-width: 30vw;
     }
 
+    .structure {
+
+        margin: 5vw 0 5vw 0vw;
+
+        height: auto;
+        width: auto;
+
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: -10vw;
+    }
+
+    .line {
+        height: 0.2vw;
+        background-color: rgba(0, 140, 255, 0.6);
+        position: relative;
+        top: 1.5vw;
+        width: 50vw;
+    }
+
     h3 {
-        font-size: 2.4vw;
+        font-size: 3vw;
+        line-height: 0.2vw;
+        letter-spacing: 0vw;
+
+        margin-left: 10vw;
+
+        text-align: start;
+
+        overflow-x: visible;
+    }
+
+    h4 {
+        font-size: 2.25vw;
         line-height: 2.4vw;
         letter-spacing: 0vw;
 
@@ -303,6 +343,7 @@ input:focus {
 
         text-align: start;
     }
+
 
     .default {
         font-size: 1.7vw;
@@ -400,7 +441,8 @@ input:focus {
 
         display: grid;
 
-        grid-template-rows: Auto 2fr;
+        grid-template-rows: Auto 1fr;
+        grid-template-columns: 1fr Auto;
         grid-column-gap: 1.2vw;
         grid-row-gap: 2vw;
     }
@@ -418,7 +460,7 @@ input:focus {
         margin-bottom: 0;
 
         align-items: flex-start;
-        margin-bottom: 2vw;
+        margin-bottom: 1.4vw;
 
         /* background-color: aqua; */
     }
@@ -430,6 +472,8 @@ input:focus {
         align-items: flex-start;
 
         flex-wrap: nowrap;
+
+
         /* background-color: blue; */
     }
 
@@ -449,6 +493,8 @@ input:focus {
         grid-template-rows: auto;
         grid-column-gap: 10vw;
         grid-row-gap: 4vw;
+
+        overflow-x: visible;
     }
 
     .two_columns_grid > h2 {
@@ -520,7 +566,7 @@ input:focus {
 
     /*II. 1.*/
     #support_and_subscribe {
-        overflow-x: hidden;
+        overflow-x: visible;
     }
 
     /*II.2. Contact*/
@@ -693,7 +739,16 @@ input:focus {
     }
 
     h3 {
-        font-size: 3.7vw;
+        font-size: 4vw;
+        line-height: 4vw;
+        letter-spacing: 0vw;
+
+        margin: 5vw Auto 3vw Auto;
+
+    }
+
+    h4 {
+        font-size: 3.4vw;
         line-height: 3.7vw;
         letter-spacing: 0vw;
 
@@ -1071,7 +1126,16 @@ input:focus {
     }
 
     h3 {
-        font-size: 4vw;
+        font-size: 6vw;
+        line-height: 6vw;
+        letter-spacing: 0vw;
+
+        margin: 4vw Auto 7vw Auto;
+
+    }
+
+    h4 {
+        font-size: 3.7vw;
         line-height: 4vw;
         letter-spacing: 0vw;
 
