@@ -400,7 +400,7 @@ input:focus {
 
         display: grid;
 
-        grid-template-rows: Auto 1fr;
+        grid-template-rows: Auto 2fr;
         grid-column-gap: 1.2vw;
         grid-row-gap: 2vw;
     }
@@ -408,7 +408,8 @@ input:focus {
     .name {
         grid-column: 1;
         grid-row: 1;
-        height: 1.7vw;
+        min-height: 1.4vw;
+        max-height: 2.8vw;
         align-items: start;
 
         padding-top: 0;
@@ -417,6 +418,7 @@ input:focus {
         margin-bottom: 0;
 
         align-items: flex-start;
+        margin-bottom: 2vw;
 
         /* background-color: aqua; */
     }
@@ -426,6 +428,8 @@ input:focus {
         grid-row: 1;
 
         align-items: flex-start;
+
+        flex-wrap: nowrap;
         /* background-color: blue; */
     }
 
