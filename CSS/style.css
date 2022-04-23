@@ -54,7 +54,13 @@ body {
     color: rgb(225, 0, 255);
 }
 
-button, .jump {
+.translateButton.active {
+    color: rgb(225, 0, 255);
+}
+
+button,
+.jump,
+.btn {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 100;
 
@@ -67,7 +73,8 @@ button, .jump {
     box-shadow: none;
 }
 
-button:hover {
+button:hover,
+.btn:hover {
     color: rgb(23, 23, 28);
     background-color: rgb(225, 0, 255);
     border-color: rgb(225, 0, 255);
@@ -154,7 +161,8 @@ label {
     color: white;
 }
 
-input, textarea {
+input,
+textarea {
 
     font-family: 'Source Sans Pro';
     font-weight: 200;
@@ -166,22 +174,33 @@ input, textarea {
 }
 
 textarea:hover {
-    border-color:rgb(225, 0, 255);
+    border-color: rgb(225, 0, 255);
     color: white;
 }
 
 input:hover {
-    border-color:rgb(225, 0, 255);
+    border-color: rgb(225, 0, 255);
     color: white;
 }
 
 textarea:focus {
-    border-color:rgb(225, 0, 255);
+    border-color: rgb(225, 0, 255);
     color: white;
 }
 
 input:focus {
-    border-color:rgb(225, 0, 255);
+    border-color: rgb(225, 0, 255);
+}
+
+.e_captcha,
+.e_subject,
+.e_message {
+    display: none;
+}
+
+span.alert {
+    font-size: 15px;
+    color: rgb(255, 0, 0);
 }
 
 /*BIGGEST SCREEEN*/
@@ -190,7 +209,8 @@ input:focus {
     /* I. */
     /* I. 1. BASICS*/
 
-    html, body {
+    html,
+    body {
         width: 100%;
     }
 
@@ -198,7 +218,7 @@ input:focus {
         overflow-x: hidden;
     }
 
-/*Navigation start*/
+    /*Navigation start*/
     #NavBar {
 
         min-height: 4.8vw;
@@ -238,9 +258,10 @@ input:focus {
     .slash {
         width: 1vw;
     }
+
     /*Navigation End*/
 
-    .NavButton{
+    .NavButton {
 
         font-size: 1.5vw;
 
@@ -253,7 +274,9 @@ input:focus {
     }
 
     /*Buttons*/
-    button, a.jump {
+    button,
+    a.jump,
+    .btn {
         font-size: 1.8vw;
 
         border: 0.05vw;
@@ -501,9 +524,9 @@ input:focus {
         overflow-x: visible;
     }
 
-    .two_columns_grid > h2 {
+    .two_columns_grid>h2 {
         grid-column: 1 / 3;
-        grid-row:    1;
+        grid-row: 1;
     }
 
     /* II. SECTIONS*/
@@ -559,7 +582,7 @@ input:focus {
         /* background-color: rgba(199, 255, 94, 0.356); */
     }
 
-    #what_can_i_do > div {
+    #what_can_i_do>div {
         margin-bottom: 3vw;
     }
 
@@ -598,7 +621,7 @@ input:focus {
         font-size: 1.5vw;
 
         line-height: 1.5vw;
-        letter-spacing:0.05vw;
+        letter-spacing: 0.05vw;
         text-align: Left;
 
         vertical-align: Top;
@@ -606,7 +629,8 @@ input:focus {
         margin-bottom: 0.5vw;
     }
 
-    input, textarea {
+    input,
+    textarea {
 
         font-size: 1.5vw;
         line-height: 1.5vw;
@@ -618,7 +642,7 @@ input:focus {
         padding: 0.8vw 1vw 0.8vw 1vw;
         margin-bottom: 1.5vw;
 
-        width: 50vw ;
+        width: 50vw;
     }
 
     textarea {
@@ -631,10 +655,11 @@ input:focus {
 }
 
 @media screen and (min-width:641px) and (max-width:1080px) {
-        /* I. */
+    /* I. */
     /* I. 1. BASICS*/
 
-    html, body {
+    html,
+    body {
         width: 100%;
     }
 
@@ -642,7 +667,7 @@ input:focus {
         overflow-x: hidden;
     }
 
-/*Navigation start*/
+    /*Navigation start*/
     #NavBar {
 
         min-height: 6vw;
@@ -686,9 +711,10 @@ input:focus {
     .slash {
         width: 1vw;
     }
+
     /*Navigation End*/
 
-    .NavButton{
+    .NavButton {
 
         font-size: 2.3vw;
 
@@ -701,7 +727,8 @@ input:focus {
     }
 
     /*Buttons*/
-    button, a.jump {
+    button,
+    a.jump {
         font-size: 3vw;
 
         border: 0.1vw;
@@ -894,9 +921,9 @@ input:focus {
         gap: 5vw;
     }
 
-    .two_columns_grid > h2 {
+    .two_columns_grid>h2 {
         grid-column: 1 / 3;
-        grid-row:    1;
+        grid-row: 1;
     }
 
     /* II. SECTIONS*/
@@ -949,7 +976,7 @@ input:focus {
         /* background-color: rgba(199, 255, 94, 0.356); */
     }
 
-    #what_can_i_do > div {
+    #what_can_i_do>div {
         margin-bottom: 3vw;
     }
 
@@ -988,13 +1015,14 @@ input:focus {
         font-size: 2.2vw;
 
         line-height: 2.2vw;
-        letter-spacing:0.05vw;
+        letter-spacing: 0.05vw;
         text-align: Left;
 
         vertical-align: top;
     }
 
-    input, textarea {
+    input,
+    textarea {
 
         font-size: 2.5vw;
         line-height: 2.5vw;
@@ -1007,8 +1035,9 @@ input:focus {
         margin-top: 1vw;
         margin-bottom: 2.5vw;
 
-        width: 60vw ;
+        width: 60vw;
     }
+
 
     textarea {
         min-height: 10vw;
@@ -1024,7 +1053,8 @@ input:focus {
     /* I. */
     /* I. 1. BASICS*/
 
-    html, body {
+    html,
+    body {
         width: 100%;
     }
 
@@ -1073,9 +1103,10 @@ input:focus {
     .slash {
         width: 1vw;
     }
+
     /*Navigation End*/
 
-    .NavButton{
+    .NavButton {
 
         font-size: 2.3vw;
 
@@ -1088,7 +1119,8 @@ input:focus {
     }
 
     /*Buttons*/
-    button, a.jump {
+    button,
+    a.jump {
         font-size: 4vw;
 
         border: 0.1vw;
@@ -1281,9 +1313,9 @@ input:focus {
         gap: 5vw;
     }
 
-    .two_columns_grid > h2 {
+    .two_columns_grid>h2 {
         grid-column: 1 / 3;
-        grid-row:    1;
+        grid-row: 1;
     }
 
     /* II. SECTIONS*/
@@ -1335,7 +1367,7 @@ input:focus {
         /* background-color: rgba(199, 255, 94, 0.356); */
     }
 
-    #what_can_i_do > div {
+    #what_can_i_do>div {
         margin-bottom: 3vw;
     }
 
@@ -1374,13 +1406,14 @@ input:focus {
         font-size: 3vw;
 
         line-height: 3.5vw;
-        letter-spacing:0.05vw;
+        letter-spacing: 0.05vw;
         text-align: Left;
 
         vertical-align: top;
     }
 
-    input, textarea {
+    input,
+    textarea {
 
         font-size: 3.5vw;
         line-height: 3.5vw;
@@ -1410,7 +1443,8 @@ input:focus {
     /* I. */
     /* I. 1. BASICS*/
 
-    html, body {
+    html,
+    body {
         width: 100%;
     }
 
@@ -1459,9 +1493,10 @@ input:focus {
     .slash {
         width: 1vw;
     }
+
     /*Navigation End*/
 
-    .NavButton{
+    .NavButton {
 
         font-size: 2.3vw;
 
@@ -1474,7 +1509,8 @@ input:focus {
     }
 
     /*Buttons*/
-    button, a.jump {
+    button,
+    a.jump {
         font-size: 4vw;
 
         border: 0.1vw;
@@ -1629,9 +1665,9 @@ input:focus {
         gap: 8vw;
     }
 
-    .two_columns_grid > h2 {
+    .two_columns_grid>h2 {
         grid-column: 1 / 3;
-        grid-row:    1;
+        grid-row: 1;
     }
 
     /* II. SECTIONS*/
@@ -1686,7 +1722,7 @@ input:focus {
         /* background-color: rgba(199, 255, 94, 0.356); */
     }
 
-    #what_can_i_do > div {
+    #what_can_i_do>div {
         margin-bottom: 3vw;
     }
 
@@ -1725,13 +1761,14 @@ input:focus {
         font-size: 4vw;
 
         line-height: 4vw;
-        letter-spacing:0.1vw;
+        letter-spacing: 0.1vw;
         text-align: left;
 
         vertical-align: top;
     }
 
-    input, textarea {
+    input,
+    textarea {
 
         font-size: 4vw;
         line-height: 4.5vw;
@@ -1754,4 +1791,60 @@ input:focus {
     #Contact button {
         float: right;
     }
+}
+
+/* BURGER MENU */
+@media screen and (max-width:768px) {
+    #NavBar {
+        padding: 0;
+    }
+
+    #burger {
+        display: block;
+    }
+
+    .small_icon {
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
+
+    #burger, #close {
+        width: 25px;
+        height: 25px;
+        margin: 20px;
+    }
+
+    #NavBarDiv {
+        padding: 0;
+        background-color: rgb(23, 23, 28);
+        position: absolute;
+        overflow-y: auto;
+        top: 0;
+        left: -175px;
+        height: 100vh;
+        width: 175px;
+        z-index: 100;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        transition: left, 300ms, ;
+    }
+
+    #NavBarDiv.open {
+        left: 0;
+    }
+
+    #NavBarDiv .NavButton {
+        padding: 10px 5px;
+    }
+
+    #NavBarDiv #contact_button {
+        margin-bottom: 25p-175px;
+    }
+
+    #NavBarDiv .slash {
+        display: none;
+    }
+
 }

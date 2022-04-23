@@ -9,496 +9,226 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js' integrity='sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==' crossorigin='anonymous' referrerpolicy='no-referrer'></script>
     <link href="CSS/style.css" rel="stylesheet">
     <link href="illustration/illustration.css" rel="stylesheet">
+    
+    <script type="text/javascript" src="JS/src/translator.js"></script>
+    <script type="text/javascript" src="JS/src/captcha.js"></script>
+    <script type="text/javascript" src="JS/src/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="JS/index.js"></script>
 </head>
-    <body>
+    <body>  
         <div id="NavBar">
             <div id="NavBarDiv">
-                <a class="NavButton" id="support_and_subscribe_button" href="#support_and_subscribe">Soli</a>
+                <span class="small_icon">
+                    <img alt="close" src="Icons/close.svg" id="close">
+                </span>
+                <a class="NavButton" id="support_and_subscribe_button" data-i18n="nav.support_and_suscribe" href="#support_and_subscribe">Soli</a>
                 <div class="slash">/</div>
-                <a class="NavButton" id="take_action_button" href="#take_action">Take action!</a>
+                <a class="NavButton" id="take_action_button" data-i18n="nav.take_action" href="#take_action">Take action!</a>
                 <div class="slash">/</div>
-                <a class="NavButton" id="other_projects_button" href="#other_projects">Projekte</a>
+                <a class="NavButton" id="other_projects_button" data-i18n="nav.other_projects" href="#other_projects">Projekte</a>
                 <div class="slash">/</div>
-                <a class="NavButton" id="about_us_button" href="#about_us">Über uns</a>
+                <a class="NavButton" id="about_us_button" data-i18n="nav.about_us" href="#about_us">Über uns</a>
                 <div class="slash">/</div>
-                <a class="NavButton" id="contact_button" href="#contact">Kontakt</a>
+                <a class="NavButton" id="contact_button" data-i18n="nav.contact" href="#contact">Kontakt</a>
 
                 <div class="spacer"></div>
 
-                <a class="NavButton inactive" id="DE" href="#about_us">DE</a>
+                <a class="NavButton translateButton" id="DE" data-lang="de">DE</a>
                 <div class="slash">/</div>
-                <a class="NavButton inactive" id="EN" href="#contact">EN</a>
+                <a class="NavButton translateButton" id="EN" data-lang="en">EN</a>
                 <div class="slash">/</div>
-                <a class="NavButton inactive" id="RU" href="#contact">RU</a>
-
-                <a href="" class="small_icon">
-                    <img alt="BurgerMenu src="Icons/Burger" ID="burger">
-                </a>
-
+                <a class="NavButton translateButton" id="RU" data-lang="ru">RU</a>
             </div>
+            <span class="small_icon">
+                <img alt="BurgerMenu" src="Icons/Burger.svg" id="burger">
+            </span>
         </div>
 
         <section id="Splash">
 
-            <div class="first"><h1>Solidarität mit dem demokratischen Widerstand in der russischen Föderation</h1></div>
+            <div class="first"><h1 data-i18n="splash.first">Solidarität mit dem demokratischen Widerstand in der russischen Föderation</h1></div>
 
             <div class="right">
-                <div class="default">Im Moment stehen alle <mark>linksliberalen</mark> bzw. <mark>Menschenrechtsorganisationen</mark> in Russland unter massivem "Beschuss". Viele Medien und Organisationen haben aufgrund der inzwischen <mark> flächendeckend</mark> drohenden <mark>Gefahr</mark> für Leib und Leben ihre Arbeit eingeschränkt oder eingestellt: viele jedoch <mark>machen weiter</mark>. Auch die etwas jüngeren Menschen, insbesondere Frauen, entscheiden sich <mark>dennoch</mark> für den Protest und riskieren ihre Gesundheit, ihre körperliche Unversehrheit, ihre Perspektiven in Bildung und Beruf. Sie brauchen unsere <mark>Unterstützung.</mark></br></br></div>
-                <div class="default">Die europäsichen <mark>Sanktionen</mark> und der <mark>Rückzug</mark> großer internationaler Firmen wird gerade die Generation treffen, die sich am Ehesten gegen den Krieg, gegen Korruption und Gewalt ausspricht. <mark>Preissteigerungen</mark> und <mark>Knappheit</mark> treffen selbstredend auch Aktivist*innen, Journalist*innen und Menschenrechtler*innen.</div>
-                <div class="default">Die russische Opposition hat unsere Unterstützung so dringend, wie seit Jahrzehnten nicht mehr.</div>
+                <div class="default" data-i18n="splash.right.first">Im Moment stehen alle <mark>linksliberalen</mark> bzw. <mark>Menschenrechtsorganisationen</mark> in Russland unter massivem "Beschuss". Viele Medien und Organisationen haben aufgrund der inzwischen <mark> flächendeckend</mark> drohenden <mark>Gefahr</mark> für Leib und Leben ihre Arbeit eingeschränkt oder eingestellt: viele jedoch <mark>machen weiter</mark>. Auch die etwas jüngeren Menschen, insbesondere Frauen, entscheiden sich <mark>dennoch</mark> für den Protest und riskieren ihre Gesundheit, ihre körperliche Unversehrheit, ihre Perspektiven in Bildung und Beruf. Sie brauchen unsere <mark>Unterstützung.</mark></br></br></div>
+                <div class="default" data-i18n="splash.right.second">Die europäsichen <mark>Sanktionen</mark> und der <mark>Rückzug</mark> großer internationaler Firmen wird gerade die Generation treffen, die sich am Ehesten gegen den Krieg, gegen Korruption und Gewalt ausspricht. <mark>Preissteigerungen</mark> und <mark>Knappheit</mark> treffen selbstredend auch Aktivist*innen, Journalist*innen und Menschenrechtler*innen.</div>
+                <div class="default" data-i18n="splash.right.third">Die russische Opposition hat unsere Unterstützung so dringend, wie seit Jahrzehnten nicht mehr.</div>
             </div>
 
             <div class="third" id="what_can_i_do">
-                <h2>Was können wir beitragen?</h2>
-                <div class="default">
+                <h2 data-i18n="splash.third.what_can_i_do">Was können wir beitragen?</h2>
+                <div class="default" data-i18n="splash.third.default">
                     Wir können <mark>Menschenrechtsorganationen</mark> in Russland unterstützen, wie Beispielsweise Memorial, <mark>OVD Info</mark>, <mark>LGTB-Organisationen</mark> und <mark>unabhängige linke Medien</mark>. Zudem betreut auch Amnesty International mehrere Opfer staatlicher Willkür und politischer Repressionen in Russland. {hier fällt inhaltlich was, das größere politische Kontexte anspricht, Transparenz im Finanzwesen usw.}
-
+                </div>
+            </div>
         </section> <!--Splash-->
 
         <section id="support_and_subscribe">
-            <h2>Soli: Support & Subscribe</></h2>
-
-            <!--Medien-->
-            <div class="structure">
-                <div class="line"></div>
-                <h3>#Medien</h3>
-            </div>
-
+            <h2 data-i18n="title">Soli: Support & Subscribe</h2>
             <div class="two_columns_grid">
-
-                <!--Nowaya-->
                 <div class="card">
-                    <div class="name"><h4>Novaja Gazeta</h4></div>
+                        <div class="name"><h3 data-i18n="support_and_subscribe.grid.top_left.name">OWD info</h3></div>
+                        <div class="links flex_row_right">
+                            <a href="https://www.globalgiving.org/projects/ovd-info/" class="small_icon">
+                                <img alt="zur global giving Spendenplattform" src="Icons/vuesax/broken/donate_blue.svg" class="small_icon blue">
+                                <img alt="zur global giving Spendenplattform" src="Icons/vuesax/broken/donate_pink.svg" class="small_icon pink">
+                            </a>
+                            <a href="https://www.instagram.com/serenko_daria/" class="small_icon">
+                                <img alt="zum Instagram-Profil" src="Icons/vuesax/broken/instagram_blue.svg" class="small_icon blue">
+                                <img alt="zum Instagram-Profil" src="Icons/vuesax/broken/instagram_pink.svg" class="small_icon pink">
+                            </a>
+                            <a href="https://donate.ovdinfo.org/crypto#crypto-about" class="small_icon">
+                                <img alt="Crypro spenden" src="Icons/vuesax/broken/crypto_blue.svg" class="small_icon blue">
+                                <img alt="Crypto spenden" src="Icons/vuesax/broken/crypto_pink.svg" class="small_icon pink">
+                            </a>
+                        </div>
+                        <div class="explanation">
+                            <p class="small" data-i18n="support_and_subscribe.grid.top_left.explanation">
+                                ...ist eine spenden-finanzierte NGO, die sich um Betreuung, rechtlichen Beistand und psychologische Unterstützung von insbesondere politischen Verhafteten kümmert.
+                            </p>
+                        </div>
+                </div> <!--Card-->
+
+                <div class="card">
+
+                    <div class="name"><h3 data-i18n="support_and_subscribe.grid.top_right.name">Novaja Gazeta</h3></div>
                     <div class="links flex_row_right">
+                        <a href="https://novayagazeta.ru/donate" class="small_icon">
+                            <img alt="Spenden" src="Icons/vuesax/broken/donate_blue.svg" class="small_icon blue">
+                            <img alt="Spenden" src="Icons/vuesax/broken/donate_pink.svg" class="small_icon pink">
+                        </a>
                         <a href="https://www.instagram.com/novayagazeta/" class="small_icon">
-                            <img alt="zum Instagram-Profil" src="Icons/instagram_blue.svg" class="small_icon blue">
-                            <img alt="zum Instagram-Profil" src="Icons/instagram_pink.svg" class="small_icon pink">
+                            <img alt="zum Instagram-Profil" src="Icons/vuesax/broken/instagram_blue.svg" class="small_icon blue">
+                            <img alt="zum Instagram-Profil" src="Icons/vuesax/broken/instagram_pink.svg" class="small_icon pink">
                         </a>
                         <a href="https://t.me/novaya_pishet" class="small_icon">
-                            <img alt="zum Telegramkanal" src="Icons/telegram_blue.svg" class="small_icon blue">
-                            <img alt="zum Telegramkanal" src="Icons/telegram_pink.svg" class="small_icon pink">
+                            <img alt="zum Telegramkanal" src="Icons/vuesax/broken/telegram_blue.svg" class="small_icon blue">
+                            <img alt="zum Telegramkanal" src="Icons/vuesax/broken/telegram_pink.svg" class="small_icon pink">
                         </a>
 
 
                     </div>
                     <div class="explanation">
-                        <p class="small">
+                        <p class="small" data-i18n="support_and_subscribe.grid.top_right.explanation">
                             ...ist die investigative russische Zeitung. Mehrere Journalistinnen wurden informell hingerichtet. Novaja Gazeta ist 2021 mit dem Nobelpreis ausgezeichnet worden.
                         </p>
                     </div>
                 </div> <!--Card-->
 
-                <!--OWD-->
-                <div class="card">
-                    <div class="name"><h4>OWD info</h4></div>
-                    <div class="links flex_row_right">
-                        <a href="https://www.globalgiving.org/projects/ovd-info/" class="small_icon">
-                            <img alt="zur global giving Spendenplattform" src="Icons/donate_blue.svg" class="small_icon blue">
-                            <img alt="zur global giving Spendenplattform" src="Icons/donate_pink.svg" class="small_icon pink">
-                        </a>
-                        <a href="https://www.instagram.com/serenko_daria/" class="small_icon">
-                            <img alt="zum Instagram-Profil" src="Icons/instagram_blue.svg" class="small_icon blue">
-                            <img alt="zum Instagram-Profil" src="Icons/instagram_pink.svg" class="small_icon pink">
-                        </a>
-                        <a href="https://donate.ovdinfo.org/crypto#crypto-about" class="small_icon">
-                            <img alt="Crypro spenden" src="Icons/crypto_blue.svg" class="small_icon blue">
-                            <img alt="Crypto spenden" src="Icons/crypto_pink.svg" class="small_icon pink">
-                        </a>
-                    </div>
-                    <div class="explanation">
-                        <p class="small">
-                            ...ist eine spenden-finanzierte NGO, die sich um Betreuung, rechtlichen Beistand und psychologische Unterstützung von insbesondere politischen Verhafteten kümmert.
-                        </p>
-                    </div>
-                </div> <!--Card-->
 
-                <!--DOXA-->
                 <div class="card">
 
-                    <div class="name"><h4>DOXA journal</h4></div>
+                    <div class="name"><h3 data-i18n="support_and_subscribe.grid.bottom_left.name">DOXA journal</h3></div>
                     <div class="links flex_row_right">
                         <a href="https://www.patreon.com/doxajournal" class="small_icon">
-                            <img alt="zur Patreon Spendenplattform" src="Icons/donate_blue.svg" class="small_icon blue">
-                            <img alt="zur Patreon Spendenplattform" src="Icons/donate_pink.svg" class="small_icon pink">
+                            <img alt="zur Patreon Spendenplattform" src="Icons/vuesax/broken/donate_blue.svg" class="small_icon blue">
+                            <img alt="zur Patreon Spendenplattform" src="Icons/vuesax/broken/donate_pink.svg" class="small_icon pink">
                         </a>
                         <a href="https://www.instagram.com/doxa_journal/" class="small_icon">
-                            <img alt="zum Instagram-Profil" src="Icons/instagram_blue.svg" class="small_icon blue">
-                            <img alt="zum Instagram-Profil" src="Icons/instagram_pink.svg" class="small_icon pink">
+                            <img alt="zum Instagram-Profil" src="Icons/vuesax/broken/instagram_blue.svg" class="small_icon blue">
+                            <img alt="zum Instagram-Profil" src="Icons/vuesax/broken/instagram_pink.svg" class="small_icon pink">
                         <a href="https://t.me/doxajournal" class="small_icon">
-                            <img alt="zum Telegramkanal" src="Icons/telegram_blue.svg" class="small_icon blue">
-                            <img alt="zum Telegramkanal" src="Icons/telegram_pink.svg" class="small_icon pink">
+                            <img alt="zum Telegramkanal" src="Icons/vuesax/broken/telegram_blue.svg" class="small_icon blue">
+                            <img alt="zum Telegramkanal" src="Icons/vuesax/broken/telegram_pink.svg" class="small_icon pink">
                         </a>
                     </div>
                     <div class="explanation">
-                        <p class="small">
+                        <p class="small" data-i18n="support_and_subscribe.grid.bottom_left.explanation">
                                 ...ist eine linke, studentische Zeitung. Mehrere Mitgleider wurden 2021 angeklagt und unter Hausarrest gestellt.
                         </p>
                     </div>
                 </div> <!--Card-->
-            </div>
 
-            <div class="structure">
-                <div class="line"></div>
-                <h3>#Menschenrechtsarbeit</h3>
-            </div>
 
-            <div class="two_columns_grid">
-
-                <!--Soldatenmütter-->
                 <div class="card">
-                    <div class="name"><h4>Soldatenmütter</h4></div>
+                    <div class="name"><h3 data-i18n="support_and_subscribe.grid.bottom_right.name">Darja Serenko</h3></div>
                     <div class="links flex_row_right">
-                        <a href="https://soldiersmothers.ru/" class="small_icon">
-                            <img alt="Zur Webseite" src="Icons/web_blue.svg" class="small_icon blue">
-                            <img alt="Zur Webseite" src="Icons/web_pink.svg" class="small_icon pink">
+                        <a href="https://www.instagram.com/serenko_daria/" class="small_icon">
+                            <img alt="zum Instagram-Profil" src="Icons/vuesax/broken/instagram_blue.svg" class="small_icon blue">
+                            <img alt="zum Instagram-Profil" src="Icons/vuesax/broken/instagram_pink.svg" class="small_icon pink">
                         </a>
-                        <a href="https://t.me/solmspb" class="small_icon">
-                            <img alt="Zum Telegramkanal" src="Icons/telegram_blue.svg" class="small_icon blue">
-                            <img alt="Zum Telegramkanal" src="Icons/telegram_pink.svg" class="small_icon pink">
-                        </a>
-                        <a href="https://soldiersmothers.ru/donate" class="small_icon">
-                            <img alt="Donate" src="Icons/donate_credit_blue.svg" class="small_icon blue">
-                            <img alt="Donate" src="Icons/donate_credit_pink.svg" class="small_icon pink">
-                        </a>
-
-                    </div>
-                    <div class="explanation">
-                        <p class="small">
-                            ...ist eine seit 1991 bestehende Menschenrechtsorganisation mit Schwerpunkt auf Wehrdienstleistende. Die NGO setzte sich ursprünglich gegen Misshandlungen und für Aufklärung von Vrebrechen in der russischen Armee ein. Inzwischen beraten Soldatenmütter Pazifisten, eingezogene junge Männer und wehrdienstleistende Soldaten. "Soldatenmütter" stützt sich auf die Europäische Konvention der Menschenrechte und die Verfassung der Russischen Föderation.
-                        </p>
-                    </div>
-                </div> <!--Card-->
-
-                <!--Die erste Abteilung-->
-                <div class="card">
-                    <div class="name"><h4>"Die Erste Abteilung"</h4></div>
-                    <div class="links flex_row_right">
-                        <a href="https://dept.one/" class="small_icon">
-                            <img alt="Zur Webseite" src="Icons/web_blue.svg" class="small_icon blue">
-                            <img alt="Zur Webseite" src="Icons/web_pink.svg" class="small_icon pink">
-                        </a>
-                        <a href="https://dept.one/#donate" class="small_icon">
-                            <img alt="Spenden mit Crypro" src="Icons/crypto_blue.svg" class="small_icon blue">
-                            <img alt="Spenden mit Crypto" src="Icons/crypto_pink.svg" class="small_icon pink">
+                        <a href="https://t.me/femagainstwar" class="small_icon">
+                                <img alt="zum Telegramkanal" src="Icons/vuesax/broken/telegram_blue.svg" class="small_icon blue">
+                                <img alt="zum Telegramkanal" src="Icons/vuesax/broken/telegram_pink.svg" class="small_icon pink">
                         </a>
                     </div>
                     <div class="explanation">
-                        <p class="small">
-                            Die Erste Abteilung ist eine Vereinigung von Menschenrechtsaktivisti*innen und Jurist*innen und setzt sich gegen die Schließung von Rechtsfällen ein, um Falsifikation. <br>
-                            "Die Erste Abteilung der Ermittlungsdirektion des FSB untersucht Fälle von Hochverrat und Spionage. Die Erste Abteilung der Gerichte sorgt für die Verfolgung solcher Fälle. Die Erste Abteilung für Unternehmen ist für die Klassifizierung und Geheimhaltung von Dokumenten zuständig. Unsere "Erste Abteilung" setzt sich dafür ein, dass die Mitarbeiter aller Ersten Abteilungen im Lande die Gesetze der Russischen Föderation einhalten. Sie -verriegeln und verrammeln [...]."
-                        </p>
-                    </div>
-                </div> <!--Card-->
-
-                <!--Die erste Abteilung-->
-                <div class="card">
-                    <div class="name"><h4>RosKomSvoboda</h4></div>
-                    <div class="links flex_row_right">
-                        <a href="https://safe.roskomsvoboda.org/" class="small_icon">
-                            <img alt="zur Webseite" src="Icons/web_blue.svg" class="small_icon blue">
-                            <img alt="zur Webseite" src="Icons/web_pink.svg" class="small_icon pink">
-                        </a>
-                        <a href="https://donate.roskomsvoboda.org/?amount=100&recurring=true" class="small_icon">
-                                <img alt="Spenden mit Kreditkarte" src="Icons/donate_credit_blue.svg" class="small_icon blue">
-                                <img alt="Spenden mit Kreditkarte" src="Icons/donate_credit_pink.svg" class="small_icon pink">
-                        </a>
-                        <a href="https://donate.roskomsvoboda.org/crypto/" class="small_icon">
-                            <img alt="Spenden mit Crypto" src="Icons/crypto_blue.svg" class="small_icon blue">
-                            <img alt="Spenden mit Crypto" src="Icons/crypto_pink.svg" class="small_icon pink">
-                    </a>
-                    </div>
-                    <div class="explanation">
-                        <p class="small">
-                                ...ist eine russische NGO, die sich für Anonymitöt und Schutz der User*innen im Netz einsetzt. Die russischsprachige User*in findet hier entsprechende Schrit-für-Schritt Anleitungen.
-                        </p>
-                    </div>
-                </div> <!--Card-->
-
-                <!--Apologia-->
-                <div class="card">
-                    <div class="name"><h4>Apologia</h4></div>
-                    <div class="links flex_row_right">
-                        <a href="https://apologia.pro" class="small_icon">
-                            <img alt="https://apologia.pro/" src="Icons/web_blue.svg" class="small_icon blue">
-                            <img alt="https://apologia.pro/" src="Icons/web_pink.svg" class="small_icon pink">
-                        </a>
-                        <a href="https://apologia.pro" class="small_icon">
-                            <img alt="Spenden mit Kreditkarte" src="Icons/donate_credit_blue.svg" class="small_icon blue">
-                            <img alt="Spenden mit Kreditkarte" src="Icons/donate_credit_pink.svg" class="small_icon pink">
-                        </a>
-                        <a href="https://t.me/ApologiaHelp" class="small_icon">
-                            <img alt="https://apologia.pro/" src="Icons/telegram_blue.svg" class="small_icon blue">
-                            <img alt="https://apologia.pro/" src="Icons/telegram_pink.svg" class="small_icon pink">
-                        </a>
-
-
-                    </div>
-                    <div class="explanation">
-                        <p class="small">
-                            Apologia leistet kostenlose Beratung und Hilfe bei Menschenrechtsverletzungen. Dabei entstehen Fahrtkosten und bürokratische Kosten.
-                        </p>
-                    </div>
-                </div> <!--Card-->
-
-                <!--no_torture-->
-                <div class="card">
-                    <div class="name"><h4>No_torture /<br> Antifolterkommitee</h4></div>
-                    <div class="links flex_row_right">
-                        <a href="https://taplink.cc/no_torture" class="small_icon">
-                            <img alt="Zur Übersicht" src="Icons/web_blue.svg" class="small_icon blue">
-                            <img alt="Zur Übersicht" src="Icons/web_pink.svg" class="small_icon pink">
-                        </a>
-                        <a href="https://nuzhnapomosh.ru/funds/komitet-protiv-pytok/" class="small_icon">
-                            <img alt="Spenden mit Kreditkarte" src="Icons/donate_credit_blue.svg" class="small_icon blue">
-                            <img alt="Spenden mit Kreditkarte" src="Icons/donate_credit_pink.svg" class="small_icon pink">
-                        </a>
-                        <a href="https://t.me/against_torture" class="small_icon">
-                            <img alt="Zum Telegramkanal" src="Icons/telegram_blue.svg" class="small_icon blue">
-                            <img alt="Zum Telegramkanal" src="Icons/telegram_pink.svg" class="small_icon pink">
-                        </a>
-
-                    </div>
-                    <div class="explanation">
-                        <p class="small">
-                            Komitee gegen Folter exisitiert seit 2000, gilt jedoch seit 2015 als „ausländischer Agent“. Rechtsberatung wird weiter - informell -angeboten. Seit 2019 exisitiert zusätzlich das Wohltätigkeitsfond Komitee gegen Folter, die Opfer von Folter psychologisch, mit Medikamenten oder auch finanziell bei Operationen unterstütz.
-                        </p>
-                    </div>
-                </div> <!--Card-->
-
-                <!--ZABRALO-->
-                <div class="card">
-                    <div class="name"><h4>ZABRALO</h4></div>
-                    <div class="links flex_row_right">
-                        <a href="https://zabralo.me/" class="small_icon">
-                            <img alt="Zur Webseite" src="Icons/web_blue.svg" class="small_icon blue">
-                            <img alt="Zur Webseite" src="Icons/web_pink.svg" class="small_icon pink">
-                        </a>
-                        <a href="https://zabralo.me/#rec436031795" class="small_icon">
-                            <img alt="Crypto spenden" src="Icons/crypto_blue.svg" class="small_icon blue">
-                            <img alt="Crypto spenden" src="Icons/crypto_pink.svg" class="small_icon pink">
-                        </a>
-                        <a href="https://t.me/zabralohelp" class="small_icon">
-                            <img alt="Telegram" src="Icons/telegram_blue.svg" class="small_icon blue">
-                            <img alt="Telegram" src="Icons/telegram_pink.svg" class="small_icon pink">
-                        </a>
-
-                    </div>
-                    <div class="explanation">
-                        <p class="small">
-                                ...ist ein relativ jugnes Projekt von Jurst*innen, die Opfer staatlicher Repressionen unterstützt.
-                        </p>
-                    </div>
-                </div> <!--Card-->
-
-                <!--arest spb-->
-                <div class="card">
-                    <div class="name"><h4>arest spb / Verhaftungen Sankt-Petersburg</h4></div>
-                    <div class="links flex_row_right">
-                        <a href="https://t.me/arestspb/971" class="small_icon">
-                            <img alt="Telegramkanal" src="Icons/telegram_blue.svg" class="small_icon blue">
-                            <img alt="Telegramkanal" src="Icons/telegram_pink.svg" class="small_icon pink">
-                        </a>
-
-                    </div>
-                    <div class="explanation">
-                        <p class="small">
-                            ...Beistand für Verhaftete, u. A. mit Fahrdienst, mit Übergaben in die Untersuchungshaft.
-                        </p>
-                    </div>
-                </div> <!--Card-->
-
-                <!--Avtozak Live-->
-                <div class="card">
-                    <div class="name"><h4>AvtozakLive</h4></div>
-                    <div class="links flex_row_right">
-                        <a href="https://t.me/avtozaklive" class="small_icon">
-                            <img alt="Telegramkanal" src="Icons/telegram_blue.svg" class="small_icon blue">
-                            <img alt="Telegramkanal" src="Icons/telegram_pink.svg" class="small_icon pink">
-                        </a>
-
-                    </div>
-                    <div class="explanation">
-                        <p class="small">
-                            ...Beistand für Verhaftete: Beratung, Fahrdienst, Übergaben in die Untersuchungshaft.
-                        </p>
-                    </div>
-                </div> <!--Card-->
-
-                <!--Rupression-->
-                <div class="card">
-                    <div class="name"><h4>Rupression</h4></div>
-                    <div class="links flex_row_right">
-                        <a href="https://rupression.com/" class="small_icon">
-                            <img alt="Zur Webseite" src="Icons/web_blue.svg" class="small_icon blue">
-                            <img alt="Zur Webseite" src="Icons/web_pink.svg" class="small_icon pink">
-                        </a>
-                        <a href="https://rupression.com/en/support/" class="small_icon">
-                            <img alt="Donate" src="Icons/crypto_blue.svg" class="small_icon blue">
-                            <img alt="Donate" src="Icons/crypto_pink.svg" class="small_icon pink">
-                        </a>
-
-                    </div>
-                    <div class="explanation">
-                        <p class="small">
-                            Im Herbst 2017 kam es in der Stadt Pensa zur Festnahme von sechs Personen. Einigen von ihnen wurden Waffen und Sprengstoff untergeschoben. In Untersuchungshaft waren sie Misshandlungen und Folterungen durch Angehörige des Inlandsgeheimdienstes FSB ausgesetzt, die Kabel an diversen Körperteilen der Festgenommenen befestigten und diese unter Strom setzten. Unter Folter nötigten die Vertreter der Staatsgewalt die jungen Männer zu vorgefertigten Aussagen, wonach sie die terroristische Vereinigung “Netzwerk” gegründet haben und ihr angehören sollen. Ende Januar 2018 erfolgte die Festnahme von zwei weiteren Antifaschisten in St. Petersburg. Auch sie wurden geschlagen, mit Stromschlägen gefoltert und zu sich selbst belastenden Aussagen gezwungen, indem sie ihre Mitgliedschaft im “Netzwerk” gestanden. Im April 2018 tauchte in Petersburg ein dritter Beschuldigter auf. In Pensa kamen im Juli 2018 noch zwei Beteiligte in Untersuchungshaft. Unter Folter und Zuhilfenahme gefälschter Beweismittel konstruierte der FSB die Strafsache einer terroristischen Vereinigung mit dem Namen “Netzwerk”. Aufgrund überstandener Folterungen und mehr als zwei Jahre andauernder Untersuchungshaft haben viele der Betroffenen mit ernsthaften Gesundheitsproblemen zu kämpfen. Bei Wassilij Kuksov und Arman Sagynbaev wurde eine offene Tuberkulose diagnostiziert.
-                        </p>
-                    </div>
-                </div> <!--Card-->
-
-                <!--EXAMPLE CARD
-                <div class="card">
-                    <div class="name"><h4>[]</h4></div>
-                    <div class="links flex_row_right">
-                        <a href="[webadress]" class="small_icon">
-                            <img alt="Zur Webseite" src="Icons/web_blue.svg" class="small_icon blue">
-                            <img alt="Zur Webseite" src="Icons/web_pink.svg" class="small_icon pink">
-                        </a>
-                        <a href="[webadress]" class="small_icon">
-                            <img alt="[]" src="Icons/[]blue.svg" class="small_icon blue">
-                            <img alt="[]" src="Icons/[]pink.svg" class="small_icon pink">
-                        </a>
-
-                    </div>
-                    <div class="explanation">
-                        <p class="small">
-                                [Explanation]
+                        <p class="small" data-i18n="support_and_subscribe.grid.bottom_right.explanation">
+                                ...ist eine russische Feministin und Schriftstellerin, die sich gegen den Krieg ausgesprochen hat. Sie wurde verhaftet und wieder freigelassen.
                         </p>
                     </div>
                 </div> <!--Card-->
             </div>
-
-            <div class="structure">
-                <div class="line"></div>
-                <h3>#LGTB+, Feminismus und Migration</h3>
-            </div>
-
-            <div class="two_columns_grid">
-
-                <!--Open Space-->
-                <div class="card">
-                    <div class="name"><h4>Open Space</h4></div>
-                    <div class="links flex_row_right">
-                        <a href="https://ospace.org/" class="small_icon">
-                            <img alt="Zur Webseite" src="Icons/web_blue.svg" class="small_icon blue">
-                            <img alt="Zur Webseite" src="Icons/web_pink.svg" class="small_icon pink">
-                        </a>
-                        <a href="https://www.patreon.com/ospace" class="small_icon">
-                            <img alt="Zum Patreon" src="Icons/donate_blue.svg" class="small_icon blue">
-                            <img alt="Zum Patreon" src="Icons/donate_pink.svg" class="small_icon pink">
-                        </a>
-
-                    </div>
-                    <div class="explanation">
-                        <p class="small">
-                            Gründerin Sasha Krynenkova und ihr Team haben sich zur Aufgabe gemacht, Aktivist*innen bei Lösung sozialer Probleme zu supporten. Open Space bietet einen sicheren Ort, die Möglichkeit, eigene Ideen zu realisieren und emotionale Unterstützung.
-                        </p>
-                    </div>
-                </div> <!--Card-->
-
-                <!--Civil Assistance Comitee-->
-                <div class="card">
-                    <div class="name"><h4>Civic Assistance Committee</h4></div>
-                    <div class="links flex_row_right">
-                        <a href="https://refugee.ru/" class="small_icon">
-                            <img alt="Zur Webseite" src="Icons/web_blue.svg" class="small_icon blue">
-                            <img alt="Zur Webseite" src="Icons/web_pink.svg" class="small_icon pink">
-                        </a>
-                        <a href="https://www.instagram.com/refugee_help/" class="small_icon">
-                            <img alt="Global giving" src="Icons/instagram_blue.svg" class="small_icon blue">
-                            <img alt="Global giving" src="Icons/instagram_pink.svg" class="small_icon pink">
-                        </a>
-
-                    </div>
-                    <div class="explanation">
-                        <p class="small">
-                            Hilfe für Geflüchtete und Migrant*innen in Not. Als eines der Ziele nennt Svetlana Gannuschkina, die Leiterin des Komitees, die gesellscahftliche und staatliche Einstellung Migrant*innen und Geflüchteten zu verändern und somit den Abbau rassistischer Vorurteile unabhängig von Hautfarbe und Herkunftsland.
-                        </p>
-                    </div>
-                </div> <!--Card-->
-
-                <!--Sphära-->
-                <div class="card">
-                    <div class="name"><h4>Sphära</h4></div>
-                    <div class="links flex_row_right">
-                        <a href="https://cfsphere.org/" class="small_icon">
-                            <img alt="Zur Webseite" src="Icons/web_blue.svg" class="small_icon blue">
-                            <img alt="Zur Webseite" src="Icons/web_pink.svg" class="small_icon pink">
-                        </a>
-                        <a href="https://cfsphere.org/donate" class="small_icon">
-                            <img alt="donate" src="Icons/donate_credit_blue.svg" class="small_icon blue">
-                            <img alt="donate" src="Icons/donate_credit_pink.svg" class="small_icon pink">
-                        </a>
-
-                    </div>
-                    <div class="explanation">
-                        <p class="small">
-                            ...ist eine Menschenrechtsorganisation mit Schwerpunkt LGBT+. Zu ihrer Tätigkeit gehören Schutz bei akuten Angriffen, Rechtshilfe, Dokumentation von Diskriminierung und Übergriffen und psychologische Unterstützung. "Sphära" berät zudem auch andere Initiativen.
-                        </p>
-                    </div>
-                </div> <!--Card-->
-            </div>
-
-        </section> <!--/support_and_subscribe-->
+        </section> <!--support_and_subscribe-->
 
         <section id="take_action">
-            <h2>Take Action</></h2>
+            <h2 data-i18n="take_action.title">Take Action</></h2>
 
             <div class="cards two_columns_grid">
 
                 <div class="card">
 
-                    <div class="name"><h4>Amnesty International</h4></div>
+                    <div class="name"><h3 data-i18n="take_action.grid.top_left.name">Amnesty International</h3></div>
                     <div class="links flex_row_right">
                         <a href="https://www.amnesty.de/informieren/laender/russische-foederation" class="small_icon">
-                            <img alt="zum Instagram-Profil" src="Icons/web_blue.svg" class="small_icon blue">
-                            <img alt="zum Instagram-Profil" src="Icons/web_pink.svg" class="small_icon pink">
+                            <img alt="zum Instagram-Profil" src="Icons/vuesax/broken/web_blue.svg" class="small_icon blue">
+                            <img alt="zum Instagram-Profil" src="Icons/vuesax/broken/web_pink.svg" class="small_icon pink">
                         </a>
                     </div>
                     <div class="explanation">
-                        <p class="small">
+                        <p class="small" data-i18n="take_action.grid.top_left.explanation">
                                 ...führt eine Liste politischer Gefangener. Schickt den Beamtinnen und Beamten, die für Repressionen verantwortlich sind, einen Brief!
                         </p>
                     </div>
                 </div>
             </div> <!--Card-->
-        </section> <!--/get involved-->
+        </section> <!--get involved-->
 
         <section id="about_us">
-            <h2>Über uns</></h2>
+            <h2 data-i18n="about_us.title">Über uns</h2>
         </section>
 
         <section id="other_projects">
-            <h2>Andere projekte</></h2>
+            <h2 data-i18n="other_projects.title">Andere projekte</></h2>
         </section>
 
         <section id="contact">
-            <h2>Kontakt</h2>
-            <form method="post" id="form_contact">
+            <h2 data-i18n="contact.title">Kontakt</h2>
+            <form method="post" id="form_contact" action="mail.php">
 
                 <div>
-                    <label for="name">Wie sollen wir Dich ansprechen?:</label><br>
+                    <label data-i18n="contact.form.label_name" for="name">Wie sollen wir Dich ansprechen?:</label><br>
                     <input type="text" name="name" id="name">
                 </div>
                 <div>
-                    <label for="email">E-Mail oder Telefonnummer:</label><br>
+                    <label data-i18n="contact.form.label_email" for="email">E-Mail oder Telefonnummer:</label><br>
                     <input type="email" name="email" id="email">
                 </div>
                 <div>
-                    <label for="betreff">Betreff:</label><br>
+                    <label data-i18n="contact.form.label_subject" for="betreff">Betreff: *</label><br>
                     <input type="text" name="betreff" id="betreff">
+                    <span class="alert e_subject">Betreff</span>
+                </div>
+                <div> 
+                    <label data-i18n="contact.form.label_message" for="text">Deine Nachricht: *</label><br>
+                    <textarea rows="7" id="text" name="text"></textarea>
+                    <span class="alert e_message">Nachricht </span>
                 </div>
                 <div>
-                    <label for="text">Deine Nachricht:</label><br>
-                    <textarea rows="7" id="text" name="text" required ></textarea>
+                    <input class="jCaptcha" type="text" placeholder="Type in result please">
+                    <span class="alert e_captcha">Captcha falsch</span>
                 </div>
                 <div>
-                    <label>Falls wir uns bei Dir zurückmelden sollen überprüfe bitte nochmal, ob Du eine Email / Telefonnummer
+                    <label data-i18n="contact.form.required_note">* erforderliche Angaben</label> <br />
+                    <label data-i18n="contact.form.note">Falls wir uns bei Dir zurückmelden sollen überprüfe bitte nochmal, ob Du eine Email / Telefonnummer
                         hinterlassen hast.</label>
                 </div>
                 <div>
-                    <button type="submit">Abschicken!</button>
-                </div>
+                    <a href="javascript:formSend()" data-i18n="contact.form.submit" class="btn">Abschicken!</a>
+                </div> 
             </form>
+            <div id="form_info">
+
+            </div>
         </section>
     </body>
 </html>

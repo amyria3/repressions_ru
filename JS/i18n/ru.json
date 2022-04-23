@@ -1,0 +1,68 @@
+{
+    "nav": {
+        "support_and_suscribe": "Soli",
+        "take_action": "Take action!",
+        "other_projects": "Projecte",
+        "about_us": "Wer wir sind", 
+        "contact": "Kontakt"
+    },
+    "splash": {
+        "first": "Solidarität mit dem demokratischen Widerstand in der russischen Föderation",
+        "right": {
+            "first": "Im Moment stehen alle <mark>linksliberalen</mark> bzw. <mark>Menschenrechtsorganisationen</mark> in Russland unter massivem \"Beschuss\". Viele Medien und Organisationen haben aufgrund der inzwischen <mark> flächendeckend</mark> drohenden <mark>Gefahr</mark> für Leib und Leben ihre Arbeit eingeschränkt oder eingestellt: viele jedoch <mark>machen weiter</mark>. Auch die etwas jüngeren Menschen, insbesondere Frauen, entscheiden sich <mark>dennoch</mark> für den Protest und riskieren ihre Gesundheit, ihre körperliche Unversehrheit, ihre Perspektiven in Bildung und Beruf. Sie brauchen unsere <mark>Unterstützung.</mark></br></br>",
+            "second": "Die europäsichen <mark>Sanktionen</mark> und der <mark>Rückzug</mark> großer internationaler Firmen wird gerade die Generation treffen, die sich am Ehesten gegen den Krieg, gegen Korruption und Gewalt ausspricht. <mark>Preissteigerungen</mark> und <mark>Knappheit</mark> treffen selbstredend auch Aktivist*innen, Journalist*innen und Menschenrechtler*innen.",
+            "third": "Die russische Opposition hat unsere Unterstützung so dringend, wie seit Jahrzehnten nicht mehr."
+        },
+        "third": {
+            "what_can_id_do": "Was können wir beitragen?",
+            "default": ""
+        }
+    },
+    "support_and_subscribe": {
+        "title": "Soli: Support & Subscribe",
+        "grid": {
+            "top_left": {
+                "name": "OWD info",
+                "explanation": "...ist eine spendenfinanzierte NGO, die sich um Betreuung, rechtlichen Beistand und psychologische Unterstützung von insbesondere politischen Verhafteten kümmert."
+            },
+            "top_right": {
+                "name": "Novaja Gazeta",
+                "explanation": "...ist die investigative russische Zeitung. Mehrere Journalistinnen wurden informell hingerichtet. Novaja Gazeta ist 2021 mit dem Nobelpreis ausgezeichnet worden."
+            },
+            "bottom_left": {
+                "name": "DOXA journal",
+                "explanation": "...ist eine linke, studentische Zeitung. Mehrere Mitgleider wurden 2021 angeklagt und unter Hausarrest gestellt."
+            },
+            "bottom_right": {
+                "name": "Darja Serenko",
+                "explanation": "...ist eine russische Feministin und Schriftstellerin, die sich gegen den Krieg ausgesprochen hat. Sie wurde verhaftet und wieder freigelassen."
+            }
+        }
+    },
+    "take_action": {
+        "title": "Take Action",
+        "grid": {
+            "top_left": {
+                "name": "Amnesty International",
+                "explanation": "...führt eine Liste politischer Gefangener. Schickt den Beamtinnen und Beamten, die für Repressionen verantwortlich sind, einen Brief!"
+            }
+        }
+    },
+    "about_us": {
+        "title": "Über uns"
+    },
+    "other_projects": {
+        "title": "Andere projekte"
+    },
+    "contact": {  
+        "title": "Kontakt", 
+        "form": {
+            "label_name": "Wie sollen wir Dich ansprechen?:",
+            "label_email": "E-Mail oder Telefonnummer:",
+            "label_subject": "Betreff:",
+            "label_message": "Deine Nachricht:",
+            "note": "Falls wir uns bei Dir zurückmelden sollen überprüfe bitte nochmal, ob Du eine Email / Telefonnummer hinterlassen hast.",
+            "submit": "Abschicken!"
+        }
+    } 
+}
