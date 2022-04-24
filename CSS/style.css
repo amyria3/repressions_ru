@@ -6,8 +6,8 @@
 
 /*Rules: IDs big*/
 
-/*Primary color:     color: rgb(0, 140, 255);
-/*Secondary     color: rgb(0, 204, 255);
+/* Primary color:     color: rgb(0, 140, 255);
+/* Secondary color:     color: rgb(0, 204, 255);
 /* background-color: rgb(23, 23, 28); */
 
 
@@ -66,7 +66,7 @@ button,
 
     color: rgb(255, 255, 255);
     background-color: rgba(0, 140, 255, 0.2);
-    border-color: rgba(255, 255, 255, 1);
+    border-color: rgba(0, 140, 255, 1);
 
     text-decoration: none;
 
