@@ -76,19 +76,17 @@ function formSend() {
     let subject = jQuery.trim(jQuery('#betreff').val());
     let message = jQuery.trim(jQuery('#text').val());
 
-    let error = 0;
     if (!subject) {
         jQuery('.e_subject').show(300);
-        error++;
     }
-    if (!message) {
+    else if (!message) {
         jQuery('.e_message').show(300);
-        error++;
-    }
 
-    if (!error) {
+    }
+    else {
         captcha.validate();
     }
+
 }
 
 
