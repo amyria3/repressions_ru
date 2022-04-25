@@ -6,51 +6,57 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Support Russian Freedom &amp; Antiwar movenment</title>
         <link href="./CSS/style.css" rel="stylesheet">
+        <script type="text/javascript" src="JS/src/translator.js"></script>
+        <script type="text/javascript" src="JS/src/captcha.js"></script>
+        <script type="text/javascript" src="JS/src/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="JS/index.js"></script>
     </head>
     <body>
-        <div id="NavBar">
-            <div id="NavBarDiv">
-                <a class="NavButton" id="support_and_subscribe_button" href="./index.html#support_and_subscribe">Soli</a>
-                <div class="slash">/</div>
-                <a class="NavButton" id="take_action_button" href="./index.html#take_action">Take action!</a>
-                <div class="slash">/</div>
-                <a class="NavButton" id="other_projects_button" href="./index.html#other_projects">Projekte</a>
-                <div class="slash">/</div>
-                <a class="NavButton" id="about_us_button" href="./index.html#about_us">Über uns</a>
-                <div class="slash">/</div>
-                <a class="NavButton" id="contact_button" href="./index.html#contact">Kontakt</a>
+    <div id="NavBar">
+        <div id="NavBarDiv">
+                <span class="small_icon">
+                    <img alt="close" src="Icons/close.svg" id="close">
+                </span>
+            <a class="NavButton" id="support_and_subscribe_button" data-i18n="nav.support_and_suscribe" href="#support_and_subscribe">Soli</a>
+            <div class="slash">/</div>
+            <a class="NavButton" id="take_action_button" data-i18n="nav.take_action" href="#take_action">Take action!</a>
+            <div class="slash">/</div>
+            <a class="NavButton" id="other_projects_button" data-i18n="nav.other_projects" href="#other_projects">Projekte</a>
+            <div class="slash">/</div>
+            <a class="NavButton" id="about_us_button" data-i18n="nav.about_us" href="#about_us">Über uns</a>
+            <div class="slash">/</div>
+            <a class="NavButton" id="contact_button" data-i18n="nav.contact" href="#contact">Kontakt</a>
 
-                <div class="spacer"></div>
+            <div class="spacer"></div>
 
-                <a class="NavButton inactive" id="DE" href="./index.html#about_us">DE</a>
-                <div class="slash">/</div>
-                <a class="NavButton inactive" id="EN" href="./index.html#contact">EN</a>
-                <div class="slash">/</div>
-                <a class="NavButton inactive" id="RU" href="./index.html#contact">RU</a>
+            <a class="NavButton translateButton" id="DE" data-lang="de">DE</a>
+            <div class="slash">/</div>
+            <a class="NavButton translateButton" id="EN" data-lang="en">EN</a>
+            <div class="slash">/</div>
+            <a class="NavButton translateButton" id="RU" data-lang="ru">RU</a>
+        </div>
+        <span class="small_icon">
+                <img alt="BurgerMenu" src="Icons/Burger.svg" id="burger">
+            </span>
+    </div>
 
-                <a href="./index.html" class="small_icon">
-                    <img alt="BurgerMenu src=" icons="" burger"="" id="burger">
-                </a>
+    <section id="Splash">
 
-            </div>
+        <div class="first"><h1 data-i18n="splash.first">Solidarität mit dem demokratischen Widerstand in der russischen Föderation</h1></div>
+
+        <div class="right">
+            <div class="default" data-i18n="splash.right.first">Im Moment stehen alle <mark>linksliberalen</mark> bzw. <mark>Menschenrechtsorganisationen</mark> in Russland unter massivem "Beschuss". Viele Medien und Organisationen haben aufgrund der inzwischen <mark> flächendeckend</mark> drohenden <mark>Gefahr</mark> für Leib und Leben ihre Arbeit eingeschränkt oder eingestellt: viele jedoch <mark>machen weiter</mark>. Auch die etwas jüngeren Menschen, insbesondere Frauen, entscheiden sich <mark>dennoch</mark> für den Protest und riskieren ihre Gesundheit, ihre körperliche Unversehrheit, ihre Perspektiven in Bildung und Beruf. Sie brauchen unsere <mark>Unterstützung.</mark></br></br></div>
+            <div class="default" data-i18n="splash.right.second">Die europäsichen <mark>Sanktionen</mark> und der <mark>Rückzug</mark> großer internationaler Firmen wird gerade die Generation treffen, die sich am Ehesten gegen den Krieg, gegen Korruption und Gewalt ausspricht. <mark>Preissteigerungen</mark> und <mark>Knappheit</mark> treffen selbstredend auch Aktivist*innen, Journalist*innen und Menschenrechtler*innen.</div>
+            <div class="default" data-i18n="splash.right.third">Die russische Opposition hat unsere Unterstützung so dringend, wie seit Jahrzehnten nicht mehr.</div>
         </div>
 
-        <section id="Splash">
-
-            <div class="first"><h1>Solidarität mit dem demokratischen Widerstand in der russischen Föderation</h1></div>
-
-            <div class="right">
-                <div class="default">Im Moment stehen alle <mark>linksliberalen</mark> bzw. <mark>Menschenrechtsorganisationen</mark> in Russland unter massivem "Beschuss". Viele Medien und Organisationen haben aufgrund der inzwischen <mark> flächendeckend</mark> drohenden <mark>Gefahr</mark> für Leib und Leben ihre Arbeit eingeschränkt oder eingestellt: viele jedoch <mark>machen weiter</mark>. Auch die etwas jüngeren Menschen, insbesondere Frauen, entscheiden sich <mark>dennoch</mark> für den Protest und riskieren ihre Gesundheit, ihre körperliche Unversehrheit, ihre Perspektiven in Bildung und Beruf. Sie brauchen unsere <mark>Unterstützung.</mark><br><br></div>
-                <div class="default">Die europäsichen <mark>Sanktionen</mark> und der <mark>Rückzug</mark> großer internationaler Firmen wird gerade die Generation treffen, die sich am Ehesten gegen den Krieg, gegen Korruption und Gewalt ausspricht. <mark>Preissteigerungen</mark> und <mark>Knappheit</mark> treffen selbstredend auch Aktivist*innen, Journalist*innen und Menschenrechtler*innen.</div>
-                <div class="default">Die russische Opposition hat unsere Unterstützung so dringend, wie seit Jahrzehnten nicht mehr.</div>
+        <div class="third" id="what_can_i_do">
+            <h2 data-i18n="splash.third.what_can_i_do">Was können wir beitragen?</h2>
+            <div class="default" data-i18n="splash.third.default">
+                Wir können <mark>Menschenrechtsorganationen</mark> in Russland unterstützen, wie Beispielsweise Memorial, <mark>OVD Info</mark>, <mark>LGTB-Organisationen</mark> und <mark>unabhängige linke Medien</mark>. Zudem betreut auch Amnesty International mehrere Opfer staatlicher Willkür und politischer Repressionen in Russland. {hier fällt inhaltlich was, das größere politische Kontexte anspricht, Transparenz im Finanzwesen usw.}
             </div>
-
-            <div class="third" id="what_can_i_do">
-                <h2>Was können wir beitragen?</h2>
-                <div class="default">
-                    Wir können <mark>Menschenrechtsorganationen</mark> in Russland unterstützen, wie Beispielsweise Memorial, <mark>OVD Info</mark>, <mark>LGTB-Organisationen</mark> und <mark>unabhängige linke Medien</mark>. Zudem betreut auch Amnesty International mehrere Opfer staatlicher Willkür und politischer Repressionen in Russland. {hier fällt inhaltlich was, das größere politische Kontexte anspricht, Transparenz im Finanzwesen usw.}
-
-        </div></div></section> <!--Splash-->
+        </div>
+    </section> <!--Splash-->
 
         <section id="support_and_subscribe">
             <h2>Soli: Support &amp; Subscribe</h2>
@@ -361,7 +367,7 @@
                                 [Explanation]
                         </p>
                     </div>
-                </div> <!--Card-->
+                </div> Card-->
             </div>
 
             <div class="structure">
@@ -460,42 +466,52 @@
             </div> <!--Card-->
         </section> <!--/get involved-->
 
-        <section id="about_us">
-            <h2>Über uns</h2>
-        </section>
+    <section id="about_us">
+        <h2 data-i18n="about_us.title">Über uns</h2>
+    </section>
 
-        <section id="other_projects">
-            <h2>Andere projekte</h2>
-        </section>
+    <section id="other_projects">
+        <h2 data-i18n="other_projects.title">Andere projekte</h2>
+    </section>
 
-        <section id="contact">
-            <h2>Kontakt</h2>
-            <form method="post" id="form_contact">
+    <section id="contact">
+        <h2 data-i18n="contact.title">Kontakt</h2>
+        <form method="post" id="form_contact" action="mail.php">
 
-                <div>
-                    <label for="name">Wie sollen wir Dich ansprechen?:</label><br>
-                    <input type="text" name="name" id="name">
-                </div>
-                <div>
-                    <label for="email">E-Mail oder Telefonnummer:</label><br>
-                    <input type="email" name="email" id="email">
-                </div>
-                <div>
-                    <label for="betreff">Betreff:</label><br>
-                    <input type="text" name="betreff" id="betreff">
-                </div>
-                <div>
-                    <label for="text">Deine Nachricht:</label><br>
-                    <textarea rows="7" id="text" name="text" required=""></textarea>
-                </div>
-                <div>
-                    <label>Falls wir uns bei Dir zurückmelden sollen überprüfe bitte nochmal, ob Du eine Email / Telefonnummer
-                        hinterlassen hast.</label>
-                </div>
-                <div>
-                    <button type="submit">Abschicken!</button>
-                </div>
-            </form>
-        </section>
+            <div>
+                <label data-i18n="contact.form.label_name" for="name">Wie sollen wir Dich ansprechen?:</label><br>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label data-i18n="contact.form.label_email" for="email">E-Mail oder Telefonnummer:</label><br>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label data-i18n="contact.form.label_subject" for="betreff">Betreff: *</label><br>
+                <input type="text" name="betreff" id="betreff">
+                <span class="alert e_subject">Betreff</span>
+            </div>
+            <div>
+                <label data-i18n="contact.form.label_message" for="text">Deine Nachricht: *</label><br>
+                <textarea rows="7" id="text" name="text"></textarea>
+                <span class="alert e_message">Nachricht </span>
+            </div>
+            <div>
+                <input class="jCaptcha" type="text" placeholder="Type in result please">
+                <span class="alert e_captcha">Captcha falsch</span>
+            </div>
+            <div>
+                <label data-i18n="contact.form.required_note">* erforderliche Angaben</label> <br />
+                <label data-i18n="contact.form.note">Falls wir uns bei Dir zurückmelden sollen überprüfe bitte nochmal, ob Du eine Email / Telefonnummer
+                    hinterlassen hast.</label>
+            </div>
+            <div>
+                <a href="javascript:formSend()" data-i18n="contact.form.submit" class="btn">Abschicken!</a>
+            </div>
+        </form>
+        <div id="form_info">
+
+        </div>
+    </section>
     </body>
 </html>

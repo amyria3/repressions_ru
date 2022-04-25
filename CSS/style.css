@@ -1862,7 +1862,7 @@ span.alert {
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
-        transition: left, 300ms, ;
+        transition: left, 300ms;
     }
 
     #NavBarDiv.open {
@@ -1874,7 +1874,7 @@ span.alert {
     }
 
     #NavBarDiv #contact_button {
-        margin-bottom: 25p-175px;
+        margin-bottom: 25px;
     }
 
     #NavBarDiv .slash {
