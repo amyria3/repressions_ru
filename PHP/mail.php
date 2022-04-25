@@ -37,21 +37,25 @@ try {
 
 
     // Message
-    $name = strip_tags($_POST['name']) ?: 'empty';
-    $email = strip_tags($_POST['email']) ?: 'empty';
-    $subject = strip_tags($_POST['betreff']) ?: 'empty';
-    $message = strip_tags($_POST['text']) ?: 'empty';
-    $mail->Body = 'new request from repression_ru <br />
+    $name = strip_tags($_POST['name']);
+    $email = strip_tags($_POST['email']);
+    $subject = strip_tags($_POST['betreff']);
+    $message = strip_tags($_POST['text']);
+
+    if($subject && $message) {
+        $mail->Body = 'new request from repression_ru <br />
                         name: ' . $name . '<br/>' .
-        'e-mail: ' . $email . '<br/>' .
-        'subject: ' . $subject . '<br/>' .
-        'message: ' . $message;
-    $mail->AltBody = 'new request from repression_ru' . PHP_EOL .
-        'name: ' . $name . PHP_EOL .
-        'e-mail: ' . $email . PHP_EOL .
-        'subject: ' . $subject . PHP_EOL .
-        'message: ' . $message;
-    $mail->send();
+            'e-mail: ' . $email . '<br/>' .
+            'subject: ' . $subject . '<br/>' .
+            'message: ' . $message;
+        $mail->AltBody = 'new request from repression_ru' . PHP_EOL .
+            'name: ' . $name . PHP_EOL .
+            'e-mail: ' . $email . PHP_EOL .
+            'subject: ' . $subject . PHP_EOL .
+            'message: ' . $message;
+        $mail->send();
+    }
+
 } catch (Exception $e) {
     echo $e->getMessage();
 

@@ -26,7 +26,7 @@ body {
     overflow-y: scroll;
 }
 
-#burger {
+#burger, #close {
     display: none;
 }
 
