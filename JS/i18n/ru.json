@@ -1,9 +1,9 @@
 {
     "nav": {
-        "support_and_suscribe": "Soli",
+        "soli": "Soli",
         "take_action": "Take action!",
         "other_projects": "Projecte",
-        "about_us": "Wer wir sind", 
+        "about_us": "Wer wir sind",
         "contact": "Kontakt"
     },
     "splash": {
@@ -54,8 +54,8 @@
     "other_projects": {
         "title": "Andere projekte"
     },
-    "contact": {  
-        "title": "Kontakt", 
+    "contact": {
+        "title": "Kontakt",
         "form": {
             "label_name": "Wie sollen wir Dich ansprechen?:",
             "label_email": "E-Mail oder Telefonnummer:",
@@ -64,5 +64,5 @@
             "note": "Falls wir uns bei Dir zurückmelden sollen überprüfe bitte nochmal, ob Du eine Email / Telefonnummer hinterlassen hast.",
             "submit": "Abschicken!"
         }
-    } 
+    }
 }

@@ -115,7 +115,6 @@ h4 {
     color: white;
 }
 
-
 .default {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 200;
@@ -539,7 +538,7 @@ span.alert {
     }
 
     /*SPLASH GRID*/
-    #Splash {
+    #splash {
         min-height: 200vh;
 
         padding-top: 10vw;
@@ -553,7 +552,7 @@ span.alert {
         overflow-x: visible;
     }
 
-    #Splash .first {
+    #splash .first {
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 1;
@@ -565,7 +564,7 @@ span.alert {
         /* background-color: rgba(0, 255, 255, 0.562); */
     }
 
-    #Splash .right {
+    #splash .right {
         grid-column-start: 5;
         grid-column-end: 8;
         grid-row-start: 1;
@@ -574,7 +573,7 @@ span.alert {
         /* background-color: rgb(149, 153, 148); */
     }
 
-    #Splash .third {
+    #splash .third {
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 2;
@@ -586,13 +585,13 @@ span.alert {
         margin-bottom: 3vw;
     }
 
-    #Splash h2 {
+    #splash h2 {
         text-align: left;
         margin: 0 0 3vw 0;
     }
 
     /*II. 1.*/
-    #support_and_subscribe {
+    #soli {
         overflow-x: visible;
     }
 
@@ -729,6 +728,7 @@ span.alert {
 
     /*Buttons*/
     button,
+    .btn,
     a.jump {
         font-size: 3vw;
 
@@ -949,7 +949,7 @@ span.alert {
     }
 
     /*SPLASH GRID*/
-    #Splash {
+    #splash {
         min-height: 200vh;
 
         padding-top: 10vw;
@@ -961,7 +961,7 @@ span.alert {
         overflow-x: visible;
     }
 
-    #Splash .first {
+    #splash .first {
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 1;
@@ -970,7 +970,7 @@ span.alert {
         /* background-color: rgba(0, 255, 255, 0.562); */
     }
 
-    #Splash .right {
+    #splash .right {
         grid-column-start: 2;
         grid-column-end: 6;
         grid-row-start: 2;
@@ -979,7 +979,7 @@ span.alert {
         /* background-color: rgb(149, 153, 148); */
     }
 
-    #Splash .third {
+    #splash .third {
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 3;
@@ -993,13 +993,13 @@ span.alert {
         margin-bottom: 3vw;
     }
 
-    #Splash h2 {
+    #splash h2 {
         text-align: left;
         margin: 0 0 3vw 0;
     }
 
     /*II. 1.*/
-    #support_and_subscribe {
+    #soli {
         overflow-x: hidden;
     }
 
@@ -1134,6 +1134,7 @@ span.alert {
 
     /*Buttons*/
     button,
+    .btn,
     a.jump {
         font-size: 4vw;
 
@@ -1349,7 +1350,7 @@ span.alert {
     }
 
     /*SPLASH GRID*/
-    #Splash {
+    #splash {
 
         padding-top: 10vw;
 
@@ -1360,7 +1361,7 @@ span.alert {
         overflow-x: visible;
     }
 
-    #Splash .first {
+    #splash .first {
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 1;
@@ -1369,7 +1370,7 @@ span.alert {
         /* background-color: rgba(0, 255, 255, 0.562); */
     }
 
-    #Splash .right {
+    #splash .right {
         grid-column-start: 2;
         grid-column-end: 6;
         grid-row-start: 2;
@@ -1378,7 +1379,7 @@ span.alert {
         /* background-color: rgb(149, 153, 148); */
     }
 
-    #Splash .third {
+    #splash .third {
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 3;
@@ -1392,13 +1393,13 @@ span.alert {
         margin-bottom: 3vw;
     }
 
-    #Splash h2 {
+    #splash h2 {
         text-align: left;
         margin: 0 0 3vw 0;
     }
 
     /*II. 1.*/
-    #support_and_subscribe {
+    #soli {
         overflow-x: hidden;
     }
 
@@ -1531,6 +1532,7 @@ span.alert {
 
     /*Buttons*/
     button,
+    .btn,
     a.jump {
         font-size: 4vw;
 
@@ -1714,7 +1716,7 @@ span.alert {
     }
 
     /*SPLASH GRID*/
-    #Splash {
+    #splash {
 
         padding-top: 10vw;
 
@@ -1726,7 +1728,7 @@ span.alert {
         overflow-x: visible;
     }
 
-    #Splash .first {
+    #splash .first {
         grid-column-start: 1 / 2;
         grid-row-start: 1;
         grid-row-end: 2;
@@ -1737,7 +1739,7 @@ span.alert {
         /* background-color: rgba(0, 255, 255, 0.562); */
     }
 
-    #Splash .right {
+    #splash .right {
         grid-column-start: 1 / 2;
         grid-column-end: 2;
         grid-row-start: 2;
@@ -1746,7 +1748,7 @@ span.alert {
         /* background-color: rgb(149, 153, 148); */
     }
 
-    #Splash .third {
+    #splash .third {
         grid-column-start: 1 / 2;
         grid-column-end: 2;
         grid-row-start: 3;
@@ -1760,13 +1762,13 @@ span.alert {
         margin-bottom: 3vw;
     }
 
-    #Splash h2 {
+    #splash h2 {
         text-align: left;
         margin: 0 0 3vw 0;
     }
 
     /*II. 1.*/
-    #support_and_subscribe {
+    #soli {
         overflow-x: hidden;
     }
 

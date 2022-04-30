@@ -1,11 +1,11 @@
 {
     "nav": {
-        "support_and_suscribe": "Soli",
-        "take_action": "Take action!",
-        "other_projects": "Projecte",
-        "about_us": "Wer wir sind",
-        "contact": "contact" 
-    }, 
+        "soli": "Solidarity",
+        "take_action": "Take action",
+        "other_projects": "Projects",
+        "about_us": "Who we are",
+        "contact": "Contact"
+    },
     "splash": {
         "first": "Solidarität mit dem demokratischen Widerstand in der russischen Föderation",
         "right": {
@@ -13,12 +13,12 @@
             "second": "Die europäsichen <mark>Sanktionen</mark> und der <mark>Rückzug</mark> großer internationaler Firmen wird gerade die Generation treffen, die sich am Ehesten gegen den Krieg, gegen Korruption und Gewalt ausspricht. <mark>Preissteigerungen</mark> und <mark>Knappheit</mark> treffen selbstredend auch Aktivist*innen, Journalist*innen und Menschenrechtler*innen.",
             "third": "Die russische Opposition hat unsere Unterstützung so dringend, wie seit Jahrzehnten nicht mehr."
         },
-        "third": { 
+        "third": {
             "what_can_id_do": "Was können wir beitragen?",
             "default": ""
         }
     },
-    "support_and_subscribe": { 
+    "support_and_subscribe": {
         "title": "Soli: Support & Subscribe",
         "grid": {
             "top_left": {
@@ -51,7 +51,7 @@
     "about_us": {
         "title": "About us"
     },
-    "other_projects": { 
+    "other_projects": {
         "title": "other projects"
     },
     "contact": {
@@ -65,4 +65,4 @@
             "submit": "send!"
         }
     }
-} 
+}
