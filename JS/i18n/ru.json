@@ -9,7 +9,7 @@
     "splash": {
         "first": "Solidarität mit dem demokratischen Widerstand in der russischen Föderation",
         "right": {
-            "first": "Im Moment stehen alle <mark>linksliberalen</mark> bzw. <mark>Menschenrechtsorganisationen</mark> in Russland unter massivem \"Beschuss\". Viele Medien und Organisationen haben aufgrund der inzwischen <mark> flächendeckend</mark> drohenden <mark>Gefahr</mark> für Leib und Leben ihre Arbeit eingeschränkt oder eingestellt: viele jedoch <mark>machen weiter</mark>. Auch die etwas jüngeren Menschen, insbesondere Frauen, entscheiden sich <mark>dennoch</mark> für den Protest und riskieren ihre Gesundheit, ihre körperliche Unversehrheit, ihre Perspektiven in Bildung und Beruf. Sie brauchen unsere <mark>Unterstützung.</mark></br></br>",
+            "first": "Im Moment stehen alle <mark>linksliberalen</mark> bzw. <mark>Menschenrechtsorganisationen</mark> in Russland unter massivem \"Beschuss\". Viele Medien und Organisationen haben aufgrund der inzwischen <mark> flächendeckend</mark> drohenden <mark>Gefahr</mark> für Leib und Leben ihre Arbeit eingeschränkt oder eingestellt: viele jedoch <mark>machen weiter</mark>. Auch die etwas jüngeren Menschen, insbesondere Frauen, entscheiden sich <mark>dennoch</mark> für den Protest und riskieren ihre Gesundheit, ihre körperliche Unversehrheit, ihre Perspektiven in Bildung und Beruf. Sie brauchen unsere <mark>Unterstützung</mark>.",
             "second": "Die europäsichen <mark>Sanktionen</mark> und der <mark>Rückzug</mark> großer internationaler Firmen wird gerade die Generation treffen, die sich am Ehesten gegen den Krieg, gegen Korruption und Gewalt ausspricht. <mark>Preissteigerungen</mark> und <mark>Knappheit</mark> treffen selbstredend auch Aktivist*innen, Journalist*innen und Menschenrechtler*innen.",
             "third": "Die russische Opposition hat unsere Unterstützung so dringend, wie seit Jahrzehnten nicht mehr."
         },
@@ -57,10 +57,13 @@
     "contact": {
         "title": "Kontakt",
         "form": {
+            "alert_required": "Angabe erforderlich",
+            "alert_captcha": "Captcha falsch",
             "label_name": "Wie sollen wir Dich ansprechen?:",
             "label_email": "E-Mail oder Telefonnummer:",
-            "label_subject": "Betreff:",
-            "label_message": "Deine Nachricht:",
+            "label_subject": "&ast;&nbsp;Betreff:",
+            "label_message": "&ast;&nbsp;Deine Nachricht:",
+            "required_note": "&ast;&nbsp;erforderliche Angaben",
             "note": "Falls wir uns bei Dir zurückmelden sollen überprüfe bitte nochmal, ob Du eine Email / Telefonnummer hinterlassen hast.",
             "submit": "Abschicken!"
         }
