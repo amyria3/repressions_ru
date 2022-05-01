@@ -45,8 +45,10 @@
         <div class="first"><h1 data-i18n="splash.first">Solidarität mit dem demokratischen Widerstand in der russischen Föderation</h1></div>
 
         <div class="right">
-            <div class="default" data-i18n="splash.right.first">Im Moment stehen alle <mark>linksliberalen</mark> bzw. <mark>Menschenrechtsorganisationen</mark> in Russland unter massivem "Beschuss". Viele Medien und Organisationen haben aufgrund der inzwischen <mark> flächendeckend</mark> drohenden <mark>Gefahr</mark> für Leib und Leben ihre Arbeit eingeschränkt oder eingestellt: viele jedoch <mark>machen weiter</mark>. Auch die etwas jüngeren Menschen, insbesondere Frauen, entscheiden sich <mark>dennoch</mark> für den Protest und riskieren ihre Gesundheit, ihre körperliche Unversehrheit, ihre Perspektiven in Bildung und Beruf. Sie brauchen unsere <mark>Unterstützung.</mark></br></br></div>
+            <div class="default" data-i18n="splash.right.first">Im Moment stehen alle <mark>linksliberalen</mark> bzw. <mark>Menschenrechtsorganisationen</mark> in Russland unter massivem "Beschuss". Viele Medien und Organisationen haben aufgrund der inzwischen <mark> flächendeckend</mark> drohenden <mark>Gefahr</mark> für Leib und Leben ihre Arbeit eingeschränkt oder eingestellt: viele jedoch <mark>machen weiter</mark>. Auch die etwas jüngeren Menschen, insbesondere Frauen, entscheiden sich <mark>dennoch</mark> für den Protest und riskieren ihre Gesundheit, ihre körperliche Unversehrheit, ihre Perspektiven in Bildung und Beruf. Sie brauchen unsere <mark>Unterstützung.</mark></div>
+            </br></br>
             <div class="default" data-i18n="splash.right.second">Die europäsichen <mark>Sanktionen</mark> und der <mark>Rückzug</mark> großer internationaler Firmen wird gerade die Generation treffen, die sich am Ehesten gegen den Krieg, gegen Korruption und Gewalt ausspricht. <mark>Preissteigerungen</mark> und <mark>Knappheit</mark> treffen selbstredend auch Aktivist*innen, Journalist*innen und Menschenrechtler*innen.</div>
+            </br></br>
             <div class="default" data-i18n="splash.right.third">Die russische Opposition hat unsere Unterstützung so dringend, wie seit Jahrzehnten nicht mehr.</div>
         </div>
 
@@ -494,21 +496,22 @@
                 <input type="email" name="email" id="email">
             </div>
             <div>
-                <label data-i18n="contact.form.label_subject" for="betreff">Betreff: *</label><br>
+                <label data-i18n="contact.form.label_subject" for="betreff">&ast;&nbsp;Betreff:</label><br>
                 <input type="text" name="betreff" id="betreff">
-                <span class="alert e_subject">Betreff</span>
+                <span data-i18n="contact.form.alert_required" class="alert e_subject">Angabe erforderlich</span>
             </div>
             <div>
-                <label data-i18n="contact.form.label_message" for="text">Deine Nachricht: *</label><br>
+                <label data-i18n="contact.form.label_message" for="text">&ast;&nbsp;Deine Nachricht:</label><br>
                 <textarea rows="7" id="text" name="text"></textarea>
-                <span class="alert e_message">Nachricht </span>
+                <span data-i18n="contact.form.alert_required" class="alert e_message">Angabe erforderlich</span>
             </div>
             <div>
                 <input class="jCaptcha" type="text" placeholder="Type in result please">
-                <span class="alert e_captcha">Captcha falsch</span>
+                <span data-i18n="contact.form.alert_captcha" class="alert e_captcha">Captcha falsch</span>
             </div>
             <div>
-                <label data-i18n="contact.form.required_note">* erforderliche Angaben</label> <br />
+                <label data-i18n="contact.form.required_note">&ast;&nbsp;erforderliche Angaben</label>
+                <br/>
                 <label data-i18n="contact.form.note">Falls wir uns bei Dir zurückmelden sollen überprüfe bitte nochmal, ob Du eine Email / Telefonnummer
                     hinterlassen hast.</label>
             </div>
