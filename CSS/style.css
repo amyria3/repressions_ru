@@ -1835,6 +1835,12 @@ span.alert {
         padding: 0;
     }
 
+    .small_icon {
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
+
     #burger {
         display: block;
 
@@ -1843,12 +1849,6 @@ span.alert {
         margin: 5vw 5vw 5vw 6vw;
 
         opacity: 100%;
-    }
-
-    .small_icon {
-        width: auto;
-        height: auto;
-        margin: 0;
     }
 
     #burger, #close {
