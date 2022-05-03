@@ -7,14 +7,14 @@
         "contact": "Contact"
     },
     "splash": {
-        "first": "Solidarität mit dem demokratischen Widerstand in der russischen Föderation",
+        "first": "Solidarity with the democratic resistance in the Russian Federation",
         "right": {
-            "first": "Im Moment stehen alle <mark>linksliberalen</mark> bzw. <mark>Menschenrechtsorganisationen</mark> in Russland unter massivem \"Beschuss\". Viele Medien und Organisationen haben aufgrund der inzwischen <mark> flächendeckend</mark> drohenden <mark>Gefahr</mark> für Leib und Leben ihre Arbeit eingeschränkt oder eingestellt: viele jedoch <mark>machen weiter</mark>. Auch die etwas jüngeren Menschen, insbesondere Frauen, entscheiden sich <mark>dennoch</mark> für den Protest und riskieren ihre Gesundheit, ihre körperliche Unversehrheit, ihre Perspektiven in Bildung und Beruf. Sie brauchen unsere <mark>Unterstützung.</mark></br></br>",
-            "second": "Die europäsichen <mark>Sanktionen</mark> und der <mark>Rückzug</mark> großer internationaler Firmen wird gerade die Generation treffen, die sich am Ehesten gegen den Krieg, gegen Korruption und Gewalt ausspricht. <mark>Preissteigerungen</mark> und <mark>Knappheit</mark> treffen selbstredend auch Aktivist*innen, Journalist*innen und Menschenrechtler*innen.",
-            "third": "Die russische Opposition hat unsere Unterstützung so dringend, wie seit Jahrzehnten nicht mehr."
+            "first": "Currently, <mark>liberal oriented</mark> citizens as well as <mark>human rights organisations</mark> in Russia are under massive 'fire'. On account of the all encompassing <mark>threat of danger</mark>, many media outlets and organisations have limited or completely stopped their operations. Many, however, are <mark>courageously carrying on</mark>. Younger people, especially women, also decided to participate in protest, risking their livelihood, health, and perspectives in terms of career and qualifications. These people need <mark>our support</mark>",
+            "second": "The European <mark>sanctions</mark> and the <mark>withdrawal</mark> of large international companies will primarily affect those generations of Russians, who are most outspoken against the war, corruption, and violence. <mark>Rises in living costs</mark> and <mark>shortages</mark> affect activists, journalists, and human rights workers",
+            "third": "Russian opposition parties have never needed our support so urgently in decades."
         },
         "third": {
-            "what_can_id_do": "Was können wir beitragen?",
+            "what_can_id_do": "How can I contribute?",
             "default": ""
         }
     },
@@ -23,19 +23,19 @@
         "grid": {
             "top_left": {
                 "name": "OWD info",
-                "explanation": "...ist eine spendenfinanzierte NGO, die sich um Betreuung, rechtlichen Beistand und psychologische Unterstützung von insbesondere politischen Verhafteten kümmert."
+                "explanation": "...is an NGO financed by donations. The provide legal an psychological support in particular for political prisoners."
             },
             "top_right": {
-                "name": "Novaja Gazeta",
-                "explanation": "...ist die investigative russische Zeitung. Mehrere Journalistinnen wurden informell hingerichtet. Novaja Gazeta ist 2021 mit dem Nobelpreis ausgezeichnet worden."
+                "name": "Novaya Gazeta",
+                "explanation": "...is an independent investigative Russian newspaper. A number of their journalists were murdered. Novaya Gazeta was awarded the Nobel prize in 2021 for upholding freedom of expression."
             },
             "bottom_left": {
-                "name": "DOXA journal",
-                "explanation": "...ist eine linke, studentische Zeitung. Mehrere Mitgleider wurden 2021 angeklagt und unter Hausarrest gestellt."
+                "name": "DOXA Magazine",
+                "explanation": "...is an online student magazine. In 2021 a number of journalists were arrested and placed under house arrest."
             },
             "bottom_right": {
-                "name": "Darja Serenko",
-                "explanation": "...ist eine russische Feministin und Schriftstellerin, die sich gegen den Krieg ausgesprochen hat. Sie wurde verhaftet und wieder freigelassen."
+                "name": "Daria Serenko",
+                "explanation": "...is a Russian feminist, writer, and curator. She spoke out against the war, for which she was imprisoned and then later released."
             }
         }
     },
@@ -44,7 +44,7 @@
         "grid": {
             "top_left": {
                 "name": "Amnesty International",
-                "explanation": "...führt eine Liste politischer Gefangener. Schickt den Beamtinnen und Beamten, die für Repressionen verantwortlich sind, einen Brief!"
+                "explanation": "...maintains records of political prisoners. Send officials responsible for repression a letter!"
             }
         }
     },
@@ -57,12 +57,15 @@
     "contact": {
         "title": "contact",
         "form": {
-            "label_name": "Wie sollen wir Dich ansprechen?:",
-            "label_email": "E-Mail oder Telefonnummer:",
-            "label_subject": "subject:",
-            "label_message": "your message:",
-            "note": "Falls wir uns bei Dir zurückmelden sollen überprüfe bitte nochmal, ob Du eine Email / Telefonnummer hinterlassen hast.",
-            "submit": "send!"
+            "alert_required": "Field required",
+            "alert_captcha": "Captcha incorrect",
+            "label_name": "Your preferred form of address:",
+            "label_email": "Contact details (e-mail or phone number):",
+            "label_subject": "&ast;&nbsp;Subject:",
+            "label_message": "&ast;&nbsp;Your message:",
+            "required_note": "&ast;&nbsp;field required",
+            "note": "Please ensure you provide us with an email or phone number, if you need us to reply to you.",
+            "submit": "Submit"
         }
     }
 }
