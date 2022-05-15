@@ -6,6 +6,14 @@
         {
           "key": "Access-Control-Allow-Origin",
           "value": "https://repressions-ru-mail-function-vvdm2sq4vq-ez.a.run.app"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "x-requested-with, x-requested-by, Content-Type"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "POST, OPTIONS, GET"
         }
       ]
     }
