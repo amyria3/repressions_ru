@@ -38,17 +38,17 @@ $(document).ready(function () {
 
                 jQuery.ajax({ 
                     type: "POST",
-                    url: "./PHP/mail.php",
+                    url: "https://repressions-ru-mail-function-vvdm2sq4vq-ez.a.run.app",
+                    crossOrigin: true,
                     data: jQuery('#form_contact').serialize(),
-                    success: function (success) {
-                        console.log(success);
-                        if (success == '') { 
+                    statusCode: {
+                        202: function() { console.log("Success!");
                             jQuery('#form_info').html('<span>message has been sent...</span>');
-                            
-                        }
-                        else {
-                            jQuery('#form_info').html('<span style="color:#ff0000">There is an Error... </span>');
-                        }
+                            },
+                        },
+                    error: function (error) {
+                        console.log(error);
+                        jQuery('#form_info').html('<span style="color:#ff0000">There is an Error... </span>');
                     }
                 });
             }

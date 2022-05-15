@@ -1,0 +1,13 @@
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://repressions-ru-mail-function-vvdm2sq4vq-ez.a.run.app"
+        }
+      ]
+    }
+  ]
+}
