@@ -14,9 +14,54 @@
             "third": "Russian opposition parties have never needed our support so urgently in decades."
         },
         "third": {
-            "what_can_id_do": "How can I contribute?",
-            "default": ""
+            "what_can_i_do": "How can I contribute?",
+            "we_can": "Wir können <mark>Menschenrechtsorganationen</mark> in Russland unterstützen, wie Beispielsweise Memorial, <mark>OVD Info</mark> , <mark>LGTB-Organisationen</mark> und <mark>unabhängige linke Medien</mark> Zudem betreut auch Amnesty International mehrere Opfer staatlicher Willkür und politischer Repressionen in Russland. {hier fällt inhaltlich was, das größere politische Kontexte anspricht, Transparenz im Finanzwesen usw.}"
         }
+    },
+    "soli" : {
+        "apologia": "Apologia",
+        "apologia-detail": "Apologia leistet kostenlose Beratung und Hilfe bei Menschenrechtsverletzungen. Dabei entstehen Fahrtkosten und bürokratische Kosten.",
+        "arestspb": "arest spb / Verhaftungen Sankt-Petersburg",
+        "arestspb-detail": "...Beistand für Verhaftete, u. A. mit Fahrdienst, mit Übergaben in die Untersuchungshaft.",
+        "avtozaklive": "AvtozakLive",
+        "avtozaklive-detail": "...Beistand für Verhaftete: Beratung, Fahrdienst, Übergaben in die Untersuchungshaft.",
+        "cfsphere": "Sphära",
+        "cfsphere-detail": "...ist eine Menschenrechtsorganisation mit Schwerpunkt LGBT+. Zu ihrer Tätigkeit gehören Schutz bei akuten Angriffen, Rechtshilfe, Dokumentation von Diskriminierung und Übergriffen und psychologische Unterstützung. \"Sphära\" berät zudem auch andere Initiativen.",
+        "credit": "Spenden mit Kreditkarte",
+        "crypto": "Crypto spenden",
+        "deptone": "\"Die Erste Abteilung\"",
+        "deptone-detail": "Die Erste Abteilung ist eine Vereinigung von Menschenrechtsaktivisti*innen und Jurist*innen und setzt sich gegen die Schließung von Rechtsfällen ein, um Falsifikation. <br>\"Die Erste Abteilung der Ermittlungsdirektion des FSB untersucht Fälle von Hochverrat und Spionage. Die Erste Abteilung der Gerichte sorgt für die Verfolgung solcher Fälle. Die Erste Abteilung für Unternehmen ist für die Klassifizierung und Geheimhaltung von Dokumenten zuständig. Unsere \"Erste Abteilung\" setzt sich dafür ein, dass die Mitarbeiter aller Ersten Abteilungen im Lande die Gesetze der Russischen Föderation einhalten. Sie -verriegeln und verrammeln [...].\"",
+        "donate": "Spenden",
+        "doxa": "DOXA journal",
+        "doxa-detail": "...ist eine linke, studentische Zeitung. Mehrere Mitgleider wurden 2021 angeklagt und unter Hausarrest gestellt.",
+        "globalgiving": "Zur GlobalGiving Spendenplattform",
+        "header": "Soli: Support &amp; Subscribe",
+        "humanrights": "#Menschenrechtsarbeit",
+        "instagram": "Zum Instagram-Profil",
+        "lgbt": "#LGTB+, Feminismus und Migration",
+        "media": "#Medien",
+        "novaja": "Novaja Gazeta",
+        "novaja-detail": "...ist die investigative russische Zeitung. Mehrere Journalistinnen wurden informell hingerichtet. Novaja Gazeta ist 2021 mit dem Nobelpreis ausgezeichnet worden.",
+        "no_torture": "No_torture /<br> Antifolterkommitee",
+        "no_torture-detail": "Das Komitee gegen Folter exisitiert seit 2000, gilt jedoch seit 2015 als „ausländischer Agent“. Rechtsberatung wird weiter - informell - angeboten. Seit 2019 existiert zusätzlich der Wohltätigkeitsfonds \"Komitee gegen Folter\", der Opfer von Folter psychologisch, mit Medikamenten oder auch finanziell bei Operationen unterstützt.",
+        "ospace": "Open Space",
+        "ospace-detail": "Gründerin Sasha Krynenkova und ihr Team haben sich zur Aufgabe gemacht, Aktivist*innen bei Lösung sozialer Probleme zu supporten. Open Space bietet einen sicheren Ort, die Möglichkeit, eigene Ideen zu realisieren und emotionale Unterstützung.",
+        "overview": "Zur Übersicht",
+        "owd": "OWD info",
+        "owd-exaplanation": "...ist eine spenden-finanzierte NGO, die sich um Betreuung, rechtlichen Beistand und psychologische Unterstützung von insbesondere politischen Verhafteten kümmert.",
+        "patreon": "Zur Patreon Spendenplattform",
+        "refugeeru": "Civic Assistance Committee",
+        "refugeeru-detail": "Hilfe für Geflüchtete und Migrant*innen in Not. Als eines der Ziele nennt Svetlana Gannuschkina, die Leiterin des Komitees, die gesellscahftliche und staatliche Einstellung Migrant*innen und Geflüchteten zu verändern und somit den Abbau rassistischer Vorurteile unabhängig von Hautfarbe und Herkunftsland.",
+        "roskom": "RosKomSvoboda",
+        "roskom-detail": "...ist eine russische NGO, die sich für Anonymitöt und Schutz der User*innen im Netz einsetzt. Die russischsprachige User*in findet hier entsprechende Schritt-für-Schritt Anleitungen.",
+        "rupression": "Rupression",
+        "rupression-detail": "Im Herbst 2017 kam es in der Stadt Pensa zur Festnahme von sechs Personen. Einigen von ihnen wurden Waffen und Sprengstoff untergeschoben. In Untersuchungshaft waren sie Misshandlungen und Folterungen durch Angehörige des Inlandsgeheimdienstes FSB ausgesetzt, die Kabel an diversen Körperteilen der Festgenommenen befestigten und diese unter Strom setzten. Unter Folter nötigten die Vertreter der Staatsgewalt die jungen Männer zu vorgefertigten Aussagen, wonach sie die terroristische Vereinigung “Netzwerk” gegründet haben und ihr angehören sollen. Ende Januar 2018 erfolgte die Festnahme von zwei weiteren Antifaschisten in St. Petersburg. Auch sie wurden geschlagen, mit Stromschlägen gefoltert und zu sich selbst belastenden Aussagen gezwungen, indem sie ihre Mitgliedschaft im “Netzwerk” gestanden. Im April 2018 tauchte in Petersburg ein dritter Beschuldigter auf. In Pensa kamen im Juli 2018 noch zwei Beteiligte in Untersuchungshaft. Unter Folter und Zuhilfenahme gefälschter Beweismittel konstruierte der FSB die Strafsache einer terroristischen Vereinigung mit dem Namen “Netzwerk”. Aufgrund überstandener Folterungen und mehr als zwei Jahre andauernder Untersuchungshaft haben viele der Betroffenen mit ernsthaften Gesundheitsproblemen zu kämpfen. Bei Wassilij Kuksov und Arman Sagynbaev wurde eine offene Tuberkulose diagnostiziert.",
+        "soldiersmothers": "Soldatenmütter",
+        "soldiersmothers-detail": "...ist eine seit 1991 bestehende Menschenrechtsorganisation mit Schwerpunkt auf Wehrdienstleistende. Die NGO setzte sich ursprünglich gegen Misshandlungen und für Aufklärung von Verbrechen in der russischen Armee ein. Inzwischen beraten Soldatenmütter Pazifisten, eingezogene junge Männer und wehrdienstleistende Soldaten. \"Soldatenmütter\" stützt sich auf die Europäische Konvention der Menschenrechte und die Verfassung der Russischen Föderation.",
+        "telegram": "Zum Telegram-Kanal",
+        "website": "Zur Website",
+        "zabralo": "ZABRALO",
+        "zabralo-detail": "...ist ein relativ junges Projekt von Jurst*innen, die Opfer staatlicher Repressionen unterstützen."
     },
     "support_and_subscribe": {
         "title": "Soli: Support & Subscribe",
@@ -40,16 +85,13 @@
         }
     },
     "take_action": {
-        "title": "Take Action",
-        "grid": {
-            "top_left": {
-                "name": "Amnesty International",
-                "explanation": "...maintains records of political prisoners. Send officials responsible for repression a letter!"
-            }
-        }
+        "amnesty": "Amnesty International",
+        "amnesty-detail": "...maintains records of political prisoners. Send officials responsible for repression a letter!",
+        "title": "Take Action"
     },
     "about_us": {
-        "title": "About us"
+        "title": "About us",
+        "text": "Wir sind zunächst einmal eine Gruppe von Menschen, die sich als links und liberal begreifen. Einige von uns haben ihre Wurzeln in Russland. Aufgrund des brutalen Angriffskriegs des Kreml-Regimes gegen die Ukraine spüren wir das Bedürfnis, uns mit Menschen in der Ukraine und der russischen Antikriegsbewegung aktiv zu solidarisieren.<br>  Wir verurteilen zutiefst das faschistische, imperialistische Regime und dessen Unterstützer_innen sowohl im In- als auch im Ausland. Wir träumen von einem künftigen Russland als einem freien und friedlichen Land ohne jegliche imperialistische Ambitionen.<br>  Die Regierung der Russischen Föderation geht immer brutaler gegen die Opposition vor. Das betrifft sowohl die friedliche Antikriegsbewegung, als auch den etablierten zivilen Widerstand und Antifaschist*innen sowie Organisationen und Initiativen, die Erinnerungsarbeit zur Aufarbeitung der stalinistischen Verbrechen leisten."
     },
     "other_projects": {
         "title": "other projects"
