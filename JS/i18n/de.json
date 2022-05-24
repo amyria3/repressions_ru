@@ -63,27 +63,7 @@
         "zabralo": "ZABRALO",
         "zabralo-detail": "...ist ein relativ junges Projekt von Jurst*innen, die Opfer staatlicher Repressionen unterstützen."
     },
-    "support_and_subscribe": {
-        "title": "Soli: Support & Subscribe",
-        "grid": {
-            "top_left": {
-                "name": "OWD info",
-                "explanation": "...ist eine spendenfinanzierte NGO, die sich um Betreuung, rechtlichen Beistand und psychologische Unterstützung von insbesondere politischen Verhafteten kümmert."
-            },
-            "top_right": {
-                "name": "Novaja Gazeta",
-                "explanation": "...ist die investigative russische Zeitung. Mehrere Journalistinnen wurden informell hingerichtet. Novaja Gazeta ist 2021 mit dem Nobelpreis ausgezeichnet worden."
-            },
-            "bottom_left": {
-                "name": "DOXA journal",
-                "explanation": "...ist eine linke, studentische Zeitung. Mehrere Mitgleider wurden 2021 angeklagt und unter Hausarrest gestellt."
-            },
-            "bottom_right": {
-                "name": "Darja Serenko",
-                "explanation": "...ist eine russische Feministin und Schriftstellerin, die sich gegen den Krieg ausgesprochen hat. Sie wurde verhaftet und wieder freigelassen."
-            }
-        }
-    },
+
     "take_action": {
         "amnesty" : "Amnesty International",
         "amnesty-detail" : "...führt eine Liste politischer Gefangener. Schickt den Beamtinnen und Beamten, die für Repressionen verantwortlich sind, einen Brief!",

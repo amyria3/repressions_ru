@@ -1,113 +1,118 @@
 {
     "nav": {
-        "soli": "Soli",
-        "take_action": "Take action!",
-        "other_projects": "Projecte",
-        "about_us": "Wer wir sind",
-        "contact": "Kontakt"
+        "soli": "Солидарность",
+        "take_action": "Примите меры!",
+        "other_projects": "Проекты",
+        "about_us": "Кто мы",
+        "contact": "Контакт"
     },
     "splash": {
-        "first": "Solidarität mit dem demokratischen Widerstand in der russischen Föderation",
+        "first": "Солидарность с демократическим сопротивлением в Российской Федерации",
         "right": {
-            "first": "Im Moment stehen alle <mark>linksliberalen</mark> bzw. <mark>Menschenrechtsorganisationen</mark> in Russland unter massivem \"Beschuss\". Viele Medien und Organisationen haben aufgrund der inzwischen <mark> flächendeckend</mark> drohenden <mark>Gefahr</mark> für Leib und Leben ihre Arbeit eingeschränkt oder eingestellt: viele jedoch <mark>machen weiter</mark>. Auch die etwas jüngeren Menschen, insbesondere Frauen, entscheiden sich <mark>dennoch</mark> für den Protest und riskieren ihre Gesundheit, ihre körperliche Unversehrheit, ihre Perspektiven in Bildung und Beruf. Sie brauchen unsere <mark>Unterstützung</mark>.",
-            "second": "Die europäsichen <mark>Sanktionen</mark> und der <mark>Rückzug</mark> großer internationaler Firmen wird gerade die Generation treffen, die sich am Ehesten gegen den Krieg, gegen Korruption und Gewalt ausspricht. <mark>Preissteigerungen</mark> und <mark>Knappheit</mark> treffen selbstredend auch Aktivist*innen, Journalist*innen und Menschenrechtler*innen.",
-            "third": "Die russische Opposition hat unsere Unterstützung so dringend, wie seit Jahrzehnten nicht mehr."
+            "first": "В России на данный момент все <mark>лево-либеральные</mark> и <mark>правозащитные организации</mark> находятся под массивным \"обстрелом\". Многие СМИ и организации ограничили или прекратили свою работу из-за <mark>опасности</mark> для жизни и здоровья: многие, однако, <mark>продолжают</mark> . Несколько более молодые люди, особенно женщины, несмотря ни на что выбирают протест и рискуют здоровьем, физической неприкосновенностью, перспективами в образовании и работе. Им нужна наша <mark>поддержка</mark>.",
+            "second": "Европейские <mark>санкции</mark> и <mark>выход</mark> крупных международных компаний ударят по поколению, которое, скорее всего, выступит против войны, коррупции и насилия. <mark>Рост цен</mark> и <mark>дефицит</mark>, естественно, также затрагивают активистов, журналистов и правозащитников.",
+            "third": "Российская оппозиция нуждается в нашей поддержке больше, чем за последние десятилетия."
         },
         "third": {
-            "what_can_i_do": "Was können wir beitragen?",
-            "we_can": "Wir können  <mark>Menschenrechtsorganationen</mark>  in Russland unterstützen, wie Beispielsweise Memorial, <mark>OVD Info</mark> , <mark>LGTB-Organisationen</mark> und <mark>unabhängige linke Medien</mark> Zudem betreut auch Amnesty International mehrere Opfer staatlicher Willkür und politischer Repressionen in Russland. {hier fällt inhaltlich was, das größere politische Kontexte anspricht, Transparenz im Finanzwesen usw.}"
+            "what_can_i_do":"Чем можем помочь мы?",
+            "we_can": "Wir können  <mark>Menschenrechtsorganationen</mark> in Russland unterstützen, wie Beispielsweise Memorial, <mark>OVD Info</mark> , <mark>LGTB-Organisationen</mark> und <mark>unabhängige linke Medien</mark> Zudem betreut auch Amnesty International mehrere Opfer staatlicher Willkür und politischer Repressionen in Russland. {hier fällt inhaltlich was, das größere politische Kontexte anspricht, Transparenz im Finanzwesen usw.}"
         }
     },
     "soli" : {
+
+        "header": "поддержать и подписаться",
+
+        "globalgiving": "Пожертвовать через платформу GlobalGiving",
+        "instagram": "Дальше на Instagram",
+        "credit": "Пожертвовать с помощью кредитной карты",
+        "crypto": "Пожертвовать криптовалютой",
+        "donate": "Сделать пожертвование",
+        "patreon": "Пожертвовать через платформу Patreon",
+        "overview": "К обзору",
+        "telegram": "Дальше к каналу Telegram",
+        "website": "Дальше на сайт",
+
+
+        "humanrights": "#Правозащитная работа",
+        "lgbt": "#ЛГБТ+, феминизм и миграция",
+        "media": "#Источники информации",
+
+
         "apologia": "Apologia",
-        "apologia-detail": "Apologia leistet kostenlose Beratung und Hilfe bei Menschenrechtsverletzungen. Dabei entstehen Fahrtkosten und bürokratische Kosten.",
+        "apologia-detail": "Apologia предоставляет бесплатные консультации и помощь в случаях нарушения прав человека. В связи с этим возникают расходы на проезд и бюрократические издержки.",
+
         "arestspb": "arest spb / Verhaftungen Sankt-Petersburg",
-        "arestspb-detail": "...Beistand für Verhaftete, u. A. mit Fahrdienst, mit Übergaben in die Untersuchungshaft.",
+        "arestspb-detail": "...оказывает помощь арестованным, включая перевозку и передачи в места предварительного заключения.",
+
         "avtozaklive": "AvtozakLive",
-        "avtozaklive-detail": "...Beistand für Verhaftete: Beratung, Fahrdienst, Übergaben in die Untersuchungshaft.",
+        "avtozaklive-detail": "...оказывает помощь арестованным: консультации, перевозки, передачи в места предварительного заключения.",
+
         "cfsphere": "Sphära",
-        "cfsphere-detail": "...ist eine Menschenrechtsorganisation mit Schwerpunkt LGBT+. Zu ihrer Tätigkeit gehören Schutz bei akuten Angriffen, Rechtshilfe, Dokumentation von Diskriminierung und Übergriffen und psychologische Unterstützung. \"Sphära\" berät zudem auch andere Initiativen.",
-        "credit": "Spenden mit Kreditkarte",
-        "crypto": "Crypto spenden",
-        "deptone": "\"Die Erste Abteilung\"",
-        "deptone-detail": "Die Erste Abteilung ist eine Vereinigung von Menschenrechtsaktivisti*innen und Jurist*innen und setzt sich gegen die Schließung von Rechtsfällen ein, um Falsifikation. <br>\"Die Erste Abteilung der Ermittlungsdirektion des FSB untersucht Fälle von Hochverrat und Spionage. Die Erste Abteilung der Gerichte sorgt für die Verfolgung solcher Fälle. Die Erste Abteilung für Unternehmen ist für die Klassifizierung und Geheimhaltung von Dokumenten zuständig. Unsere \"Erste Abteilung\" setzt sich dafür ein, dass die Mitarbeiter aller Ersten Abteilungen im Lande die Gesetze der Russischen Föderation einhalten. Sie -verriegeln und verrammeln [...].\"",
-        "donate": "Spenden",
-        "doxa": "DOXA journal",
-        "doxa-detail": "...ist eine linke, studentische Zeitung. Mehrere Mitgleider wurden 2021 angeklagt und unter Hausarrest gestellt.",
-        "globalgiving": "Zur GlobalGiving Spendenplattform",
-        "header": "Soli: Support &amp; Subscribe",
-        "humanrights": "#Menschenrechtsarbeit",
-        "instagram": "Zum Instagram-Profil",
-        "lgbt": "#LGTB+, Feminismus und Migration",
-        "media": "#Medien",
-        "novaja": "Novaja Gazeta",
-        "novaja-detail": "...ist die investigative russische Zeitung. Mehrere Journalistinnen wurden informell hingerichtet. Novaja Gazeta ist 2021 mit dem Nobelpreis ausgezeichnet worden.",
-        "no_torture": "No_torture /<br> Antifolterkommitee",
-        "no_torture-detail": "Das Komitee gegen Folter exisitiert seit 2000, gilt jedoch seit 2015 als „ausländischer Agent“. Rechtsberatung wird weiter - informell - angeboten. Seit 2019 existiert zusätzlich der Wohltätigkeitsfonds \"Komitee gegen Folter\", der Opfer von Folter psychologisch, mit Medikamenten oder auch finanziell bei Operationen unterstützt.",
+        "cfsphere-detail": "правозащитная организация, специализирующаяся на проблемах ЛГБТ+. Её деятельность включает защиту в момент нападений, юридическую помощь, документирование фактов дискриминации и нападений, а также психологическую поддержку. \"Sphära\" также выступает с другими инициативами.",
+
+
+        "deptone": "Первый отдел",
+        "deptone-detail": "Первый отдел - это ассоциация правозащитников и юристов, которая проводит кампании против закрытия судебных дел с целью предотвращения их фальсификации.",
+
+        "doxa": "Журнал DOXA",
+        "doxa-detail": "...левая студенческая газета. В 2021 году нескольким членам были предъявлены обвинения, и они были помещены под домашний арест.",
+
+        "novaja": "Новая Гозета",
+        "novaja-detail": "...расследовательская российская газета. Несколько журналисток были неофициально казнены. «Новая газета» получила Нобелевскую премию в 2021 году.",
+
+        "no_torture": "No_torture /<br> Комитет против пыток",
+        "no_torture-detail": "Комитет против пыток существует с 2000 года, но с 2015 года считается 'иностранным агентом'. Юридические консультации по-прежнему предоставляются неофициально. С 2019 года существует также благотворительный фонд \"Комитет против пыток\", который оказывает жертвам пыток психологическую, медикаментозную или финансовую поддержку для проведения операций.",
+
         "ospace": "Open Space",
-        "ospace-detail": "Gründerin Sasha Krynenkova und ihr Team haben sich zur Aufgabe gemacht, Aktivist*innen bei Lösung sozialer Probleme zu supporten. Open Space bietet einen sicheren Ort, die Möglichkeit, eigene Ideen zu realisieren und emotionale Unterstützung.",
-        "overview": "Zur Übersicht",
-        "owd": "OWD info",
-        "owd-exaplanation": "...ist eine spenden-finanzierte NGO, die sich um Betreuung, rechtlichen Beistand und psychologische Unterstützung von insbesondere politischen Verhafteten kümmert.",
-        "patreon": "Zur Patreon Spendenplattform",
+        "ospace-detail": "Основательница Саша Крыненкова и ее команда сделали своей миссией поддержку активистов, когда они решают определенные социальные проблемы. Open Space предлагает безопасное пространство, возможность реализовать собственные идеи и эмоциональную поддержку.",
+
+        "owd": "ОВД-Инфо",
+        "owd-exaplanation": "...неправи́тельственная организация, которая обеспечивает юридическую помощь и психологическую поддержку арестованным, особенно политическим, на безвозмездной основе.",
+
         "refugeeru": "Civic Assistance Committee",
-        "refugeeru-detail": "Hilfe für Geflüchtete und Migrant*innen in Not. Als eines der Ziele nennt Svetlana Gannuschkina, die Leiterin des Komitees, die gesellscahftliche und staatliche Einstellung Migrant*innen und Geflüchteten zu verändern und somit den Abbau rassistischer Vorurteile unabhängig von Hautfarbe und Herkunftsland.",
+        "refugeeru-detail": "...предлагает помощь нуждающимся беженцам и мигрантам. Одна из целей Светланы Ганнушкиной, главы комитета, - изменить отношение общества и правительства к мигрантам и беженцам и тем самым уменьшить расистские предрассудки независимо от цвета кожи и страны происхождения.",
+
         "roskom": "RosKomSvoboda",
-        "roskom-detail": "...ist eine russische NGO, die sich für Anonymitöt und Schutz der User*innen im Netz einsetzt. Die russischsprachige User*in findet hier entsprechende Schritt-für-Schritt Anleitungen.",
+        "roskom-detail": "... - российская неправительственная организация, выступающая за анонимность и защиту пользователей в Интернете. Русскоязычные пользователи могут найти пошаговые инструкции о том, как обойти государственные барьеры и защитить себя от слежки.",
+
         "rupression": "Rupression",
         "rupression-detail": "Im Herbst 2017 kam es in der Stadt Pensa zur Festnahme von sechs Personen. Einigen von ihnen wurden Waffen und Sprengstoff untergeschoben. In Untersuchungshaft waren sie Misshandlungen und Folterungen durch Angehörige des Inlandsgeheimdienstes FSB ausgesetzt, die Kabel an diversen Körperteilen der Festgenommenen befestigten und diese unter Strom setzten. Unter Folter nötigten die Vertreter der Staatsgewalt die jungen Männer zu vorgefertigten Aussagen, wonach sie die terroristische Vereinigung “Netzwerk” gegründet haben und ihr angehören sollen. Ende Januar 2018 erfolgte die Festnahme von zwei weiteren Antifaschisten in St. Petersburg. Auch sie wurden geschlagen, mit Stromschlägen gefoltert und zu sich selbst belastenden Aussagen gezwungen, indem sie ihre Mitgliedschaft im “Netzwerk” gestanden. Im April 2018 tauchte in Petersburg ein dritter Beschuldigter auf. In Pensa kamen im Juli 2018 noch zwei Beteiligte in Untersuchungshaft. Unter Folter und Zuhilfenahme gefälschter Beweismittel konstruierte der FSB die Strafsache einer terroristischen Vereinigung mit dem Namen “Netzwerk”. Aufgrund überstandener Folterungen und mehr als zwei Jahre andauernder Untersuchungshaft haben viele der Betroffenen mit ernsthaften Gesundheitsproblemen zu kämpfen. Bei Wassilij Kuksov und Arman Sagynbaev wurde eine offene Tuberkulose diagnostiziert.",
-        "soldiersmothers": "Soldatenmütter",
-        "soldiersmothers-detail": "...ist eine seit 1991 bestehende Menschenrechtsorganisation mit Schwerpunkt auf Wehrdienstleistende. Die NGO setzte sich ursprünglich gegen Misshandlungen und für Aufklärung von Verbrechen in der russischen Armee ein. Inzwischen beraten Soldatenmütter Pazifisten, eingezogene junge Männer und wehrdienstleistende Soldaten. \"Soldatenmütter\" stützt sich auf die Europäische Konvention der Menschenrechte und die Verfassung der Russischen Föderation.",
-        "telegram": "Zum Telegram-Kanal",
-        "website": "Zur Website",
+
+        "soldiersmothers": "Солдатские матери",
+        "soldiersmothers-detail": "...это правозащитная организация, существующая уже с 1991 года и уделяющая особое внимание призывникам. Изначально эта НКО боролась против жестокого обращения с военнослужащими и за расследование преступлений в российской армии. В то же время 'Солдатские матери' консультируют пацифистов, призывников и солдат срочной службы. ссылаются на Европейскую конвенцию по правам человека и Конституцию Российской Федерации.",
+
         "zabralo": "ZABRALO",
-        "zabralo-detail": "...ist ein relativ junges Projekt von Jurst*innen, die Opfer staatlicher Repressionen unterstützen."
+        "zabralo-detail": "...это относительно молодой проект юристов, поддерживающих жертв государственных репрессий."
     },
-    "support_and_subscribe": {
-        "title": "Soli: Support & Subscribe",
-        "grid": {
-            "top_left": {
-                "name": "OWD info",
-                "explanation": "...ist eine spendenfinanzierte NGO, die sich um Betreuung, rechtlichen Beistand und psychologische Unterstützung von insbesondere politischen Verhafteten kümmert."
-            },
-            "top_right": {
-                "name": "Novaja Gazeta",
-                "explanation": "...ist die investigative russische Zeitung. Mehrere Journalistinnen wurden informell hingerichtet. Novaja Gazeta ist 2021 mit dem Nobelpreis ausgezeichnet worden."
-            },
-            "bottom_left": {
-                "name": "DOXA journal",
-                "explanation": "...ist eine linke, studentische Zeitung. Mehrere Mitgleider wurden 2021 angeklagt und unter Hausarrest gestellt."
-            },
-            "bottom_right": {
-                "name": "Darja Serenko",
-                "explanation": "...ist eine russische Feministin und Schriftstellerin, die sich gegen den Krieg ausgesprochen hat. Sie wurde verhaftet und wieder freigelassen."
-            }
-        }
-    },
+
     "take_action": {
+        "title": "Сделай что-нибудь!",
+
         "amnesty" : "Amnesty International",
-        "amnesty-detail" : "...führt eine Liste politischer Gefangener. Schickt den Beamtinnen und Beamten, die für Repressionen verantwortlich sind, einen Brief!",
-        "title": "Take Action"
+        "amnesty-detail" : "...ведет список политзаключенных. Отправьте письмо ответственным за репрессии офицерам и другим государственным служащим."
     },
+
     "about_us": {
-        "title": "Über uns",
+        "title": "О нас",
         "text": "Wir sind zunächst einmal eine Gruppe von Menschen, die sich als links und liberal begreifen. Einige von uns haben ihre Wurzeln in Russland. Aufgrund des brutalen Angriffskriegs des Kreml-Regimes gegen die Ukraine spüren wir das Bedürfnis, uns mit Menschen in der Ukraine und der russischen Antikriegsbewegung aktiv zu solidarisieren.<br>  Wir verurteilen zutiefst das faschistische, imperialistische Regime und dessen Unterstützer_innen sowohl im In- als auch im Ausland. Wir träumen von einem künftigen Russland als einem freien und friedlichen Land ohne jegliche imperialistische Ambitionen.<br>  Die Regierung der Russischen Föderation geht immer brutaler gegen die Opposition vor. Das betrifft sowohl die friedliche Antikriegsbewegung, als auch den etablierten zivilen Widerstand und Antifaschist*innen sowie Organisationen und Initiativen, die Erinnerungsarbeit zur Aufarbeitung der stalinistischen Verbrechen leisten."
     },
+
     "other_projects": {
-        "title": "Andere projekte"
+        "title": "Другие проекты"
     },
+
     "contact": {
         "title": "Kontakt",
         "form": {
-            "alert_required": "Angabe erforderlich",
-            "alert_captcha": "Captcha falsch",
-            "label_name": "Wie sollen wir Dich ansprechen?:",
-            "label_email": "E-Mail oder Telefonnummer:",
-            "label_subject": "&ast;&nbsp;Betreff:",
-            "label_message": "&ast;&nbsp;Deine Nachricht:",
-            "required_note": "&ast;&nbsp;erforderliche Angaben",
+            "alert_required": "Необходимо сюда что-нибудь ввести",
+            "alert_captcha": "Капча неверна",
+            "label_name": "Как нам к тебе обращаться?",
+            "label_email": "Электронная почта или номер телефона:",
+            "label_subject": "&ast;&nbsp;Тема сообщения:",
+            "label_message": "&ast;&nbsp;Твое сообщение:",
+            "required_note": "&ast;&nbsp;Необходимая информация",
             "note": "Falls wir uns bei Dir zurückmelden sollen überprüfe bitte nochmal, ob Du eine Email / Telefonnummer hinterlassen hast.",
-            "submit": "Abschicken!"
+            "submit": "Отослать!"
         }
     }
 }
