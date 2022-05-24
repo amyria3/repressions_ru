@@ -6,6 +6,7 @@
         "about_us": "Кто мы",
         "contact": "Контакт"
     },
+
     "splash": {
         "first": "Солидарность с демократическим сопротивлением в Российской Федерации",
         "right": {
@@ -18,6 +19,7 @@
             "we_can": "Wir können  <mark>Menschenrechtsorganationen</mark> in Russland unterstützen, wie Beispielsweise Memorial, <mark>OVD Info</mark> , <mark>LGTB-Organisationen</mark> und <mark>unabhängige linke Medien</mark> Zudem betreut auch Amnesty International mehrere Opfer staatlicher Willkür und politischer Repressionen in Russland. {hier fällt inhaltlich was, das größere politische Kontexte anspricht, Transparenz im Finanzwesen usw.}"
         }
     },
+
     "soli" : {
 
         "header": "поддержать и подписаться",
@@ -35,6 +37,9 @@
         "humanrights": "#Правозащитная работа",
         "lgbt": "#ЛГБТ+, феминизм и миграция",
         "media": "#Источники информации",
+
+        "netprizyvu": "Школа призывника",
+        "netprizyvu-detail": "...это правозащитная организация, организация, которая помогает отказаться от военной службы",
 
         "apologia": "Apologia",
         "apologia-detail": "Apologia предоставляет бесплатные консультации и помощь в случаях нарушения прав человека. В связи с этим возникают расходы на проезд и бюрократические издержки.",

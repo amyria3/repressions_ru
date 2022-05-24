@@ -34,11 +34,13 @@
         "telegram": "Forward to telegram channel",
         "website": "Forward to website",
 
-
         "humanrights": "#Menschenrechtsarbeit",
 
         "lgbt": "#LGTB+, Feminismus und Migration",
         "media": "#Medien",
+
+        "netprizyvu": "Schule der Wehrpflichtigen",
+        "netprizyvu-detail": "...ist eine Menschenrechtsorganisation, die hilft, Militärdienst abzuwehren.",
 
         "apologia": "Apologia",
         "apologia-detail": "Apologia leistet kostenlose Beratung und Hilfe bei Menschenrechtsverletzungen. Dabei entstehen Fahrtkosten und bürokratische Kosten.",
