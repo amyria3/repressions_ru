@@ -32,11 +32,9 @@
         "telegram": "Дальше к каналу Telegram",
         "website": "Дальше на сайт",
 
-
         "humanrights": "#Правозащитная работа",
         "lgbt": "#ЛГБТ+, феминизм и миграция",
         "media": "#Источники информации",
-
 
         "apologia": "Apologia",
         "apologia-detail": "Apologia предоставляет бесплатные консультации и помощь в случаях нарушения прав человека. В связи с этим возникают расходы на проезд и бюрократические издержки.",
@@ -49,7 +47,6 @@
 
         "cfsphere": "Sphära",
         "cfsphere-detail": "правозащитная организация, специализирующаяся на проблемах ЛГБТ+. Её деятельность включает защиту в момент нападений, юридическую помощь, документирование фактов дискриминации и нападений, а также психологическую поддержку. \"Sphära\" также выступает с другими инициативами.",
-
 
         "deptone": "Первый отдел",
         "deptone-detail": "Первый отдел - это ассоциация правозащитников и юристов, которая проводит кампании против закрытия судебных дел с целью предотвращения их фальсификации.",
@@ -86,22 +83,29 @@
     },
 
     "take_action": {
+
         "title": "Сделай что-нибудь!",
 
         "amnesty" : "Amnesty International",
-        "amnesty-detail" : "...ведет список политзаключенных. Отправьте письмо ответственным за репрессии офицерам и другим государственным служащим."
+        "amnesty-detail" : "...ведет список политзаключенных. Отправьте письмо ответственным за репрессии офицерам и другим государственным служащим.",
+
+        "wastetime" : "Amnesty International",
+        "wastetime-detail" : " ..это сайт, который помогает саботировать войну мирными способами: 'Нажми на кнопку и начни звонок!"
     },
 
     "about_us": {
+
         "title": "О нас",
         "text": "Wir sind zunächst einmal eine Gruppe von Menschen, die sich als links und liberal begreifen. Einige von uns haben ihre Wurzeln in Russland. Aufgrund des brutalen Angriffskriegs des Kreml-Regimes gegen die Ukraine spüren wir das Bedürfnis, uns mit Menschen in der Ukraine und der russischen Antikriegsbewegung aktiv zu solidarisieren.<br>  Wir verurteilen zutiefst das faschistische, imperialistische Regime und dessen Unterstützer_innen sowohl im In- als auch im Ausland. Wir träumen von einem künftigen Russland als einem freien und friedlichen Land ohne jegliche imperialistische Ambitionen.<br>  Die Regierung der Russischen Föderation geht immer brutaler gegen die Opposition vor. Das betrifft sowohl die friedliche Antikriegsbewegung, als auch den etablierten zivilen Widerstand und Antifaschist*innen sowie Organisationen und Initiativen, die Erinnerungsarbeit zur Aufarbeitung der stalinistischen Verbrechen leisten."
     },
 
     "other_projects": {
+
         "title": "Другие проекты"
     },
 
     "contact": {
+
         "title": "Kontakt",
         "form": {
             "alert_required": "Необходимо сюда что-нибудь ввести",

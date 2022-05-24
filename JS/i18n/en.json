@@ -6,6 +6,7 @@
         "about_us": "Who we are",
         "contact": "Contact"
     },
+
     "splash": {
         "first": "Solidarity with the democratic resistance in the Russian Federation",
         "right": {
@@ -18,6 +19,7 @@
             "we_can": "Wir können <mark>Menschenrechtsorganationen</mark> in Russland unterstützen, wie Beispielsweise Memorial, <mark>OVD Info</mark> , <mark>LGTB-Organisationen</mark> und <mark>unabhängige linke Medien</mark> Zudem betreut auch Amnesty International mehrere Opfer staatlicher Willkür und politischer Repressionen in Russland. {hier fällt inhaltlich was, das größere politische Kontexte anspricht, Transparenz im Finanzwesen usw.}"
         }
     },
+
     "soli" : {
 
         "header": "Soli: Support &amp; Subscribe",
@@ -85,17 +87,25 @@
     },
 
     "take_action": {
+
+        "title": "Take Action",
+
         "amnesty": "Amnesty International",
         "amnesty-detail": "...maintains records of political prisoners. Send officials responsible for repression a letter!",
-        "title": "Take Action"
+
+        "wastetime" : "Waste russian time",
+        "wastetime-detail" : "is a site that helps sabotage war in peaceful ways: 'Push the button and start the call. When officials are on the phone they can't coordinate the war."
     },
+
     "about_us": {
         "title": "About us",
         "text": "Wir sind zunächst einmal eine Gruppe von Menschen, die sich als links und liberal begreifen. Einige von uns haben ihre Wurzeln in Russland. Aufgrund des brutalen Angriffskriegs des Kreml-Regimes gegen die Ukraine spüren wir das Bedürfnis, uns mit Menschen in der Ukraine und der russischen Antikriegsbewegung aktiv zu solidarisieren.<br>  Wir verurteilen zutiefst das faschistische, imperialistische Regime und dessen Unterstützer_innen sowohl im In- als auch im Ausland. Wir träumen von einem künftigen Russland als einem freien und friedlichen Land ohne jegliche imperialistische Ambitionen.<br>  Die Regierung der Russischen Föderation geht immer brutaler gegen die Opposition vor. Das betrifft sowohl die friedliche Antikriegsbewegung, als auch den etablierten zivilen Widerstand und Antifaschist*innen sowie Organisationen und Initiativen, die Erinnerungsarbeit zur Aufarbeitung der stalinistischen Verbrechen leisten."
     },
+
     "other_projects": {
         "title": "other projects"
     },
+
     "contact": {
         "title": "contact",
         "form": {
