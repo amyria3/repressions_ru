@@ -11,12 +11,14 @@ $(document).ready(function () {
     });
 
     jQuery('#burger').on('click', function() {
-        jQuery('#NavBarDiv').addClass('open');
+        let navbar = jQuery('#NavBarDiv');
+        if (navbar.hasClass('open')) {
+            navbar.removeClass('open');
+        } else {
+            navbar.addClass('open');
+        }
     })
     
-    jQuery('#close').on('click', function() {
-        jQuery('#NavBarDiv').removeClass('open');
-    })
     captcha = new jCaptcha({
         el: '.jCaptcha',
         canvasClass: 'jCaptchaCanvas',

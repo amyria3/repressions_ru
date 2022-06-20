@@ -220,6 +220,7 @@ span.alert {
     /*Navigation start*/
     #NavBar {
 
+        display: block;
         min-height: 4.8vw;
 
         position: fixed;
@@ -1099,7 +1100,6 @@ span.alert {
         padding-bottom: 3vw;
         padding-top: 2vw;
 
-        display: flex;
         justify-content: space-between;
         flex-direction: row;
         align-items: flex-end;
@@ -1498,7 +1498,7 @@ span.alert {
         padding-bottom: 3vw;
         padding-top: 2vw;
 
-        display: flex;
+        display: none;
         justify-content: space-between;
         flex-direction: row;
         align-items: flex-end;
@@ -1506,6 +1506,11 @@ span.alert {
         backdrop-filter: blur(0.5vw);
 
         z-index: 99;
+    }
+
+    #NavBarDiv.open {
+        display: flex;
+        left: 0;
     }
 
     #NavBar .spacer {
@@ -1860,6 +1865,7 @@ span.alert {
     }
 
     #NavBarDiv {
+        display: none;
         margin-top: 20vw;
         padding-left: 6vw;
         position: absolute;
@@ -1876,6 +1882,7 @@ span.alert {
     }
 
     #NavBarDiv.open {
+        display: flex;
         left: 0;
     }
 
