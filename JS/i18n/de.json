@@ -9,13 +9,13 @@
     "splash": {
         "first": "Solidarität mit dem demokratischen Widerstand in der russischen Föderation",
         "right": {
-            "first": "Im Moment stehen alle <mark>linksliberalen</mark> bzw. <mark>Menschenrechtsorganisationen</mark> in Russland unter massivem \"Beschuss\". Viele Medien und Organisationen haben aufgrund der inzwischen <mark> flächendeckend</mark> drohenden <mark>Gefahr</mark> für Leib und Leben ihre Arbeit eingeschränkt oder eingestellt: viele jedoch <mark>machen weiter</mark>. Auch die etwas jüngeren Menschen, insbesondere Frauen, entscheiden sich <mark>dennoch</mark> für den Protest und riskieren ihre Gesundheit, ihre körperliche Unversehrheit, ihre Perspektiven in Bildung und Beruf. Sie brauchen unsere <mark>Unterstützung</mark>.",
-            "second": "Die europäsichen <mark>Sanktionen</mark> und der <mark>Rückzug</mark> großer internationaler Firmen wird gerade die Generation treffen, die sich am Ehesten gegen den Krieg, gegen Korruption und Gewalt ausspricht. <mark>Preissteigerungen</mark> und <mark>Knappheit</mark> treffen selbstredend auch Aktivist*innen, Journalist*innen und Menschenrechtler*innen.",
+            "first": "Im Moment stehen alle <b>linksliberalen</b> bzw. <b>Menschenrechtsorganisationen</b> in Russland unter massivem \"Beschuss\". Viele Medien und Organisationen haben aufgrund der inzwischen <b> flächendeckend</b> drohenden <b>Gefahr</b> für Leib und Leben ihre Arbeit eingeschränkt oder eingestellt: viele jedoch <b>machen weiter</b>. Auch die etwas jüngeren Menschen, insbesondere Frauen, entscheiden sich <b>dennoch</b> für den Protest und riskieren ihre Gesundheit, ihre körperliche Unversehrheit, ihre Perspektiven in Bildung und Beruf. Sie brauchen unsere <b>Unterstützung</b>.",
+            "second": "Die europäsichen <b>Sanktionen</b> und der <b>Rückzug</b> großer internationaler Firmen wird gerade die Generation treffen, die sich am Ehesten gegen den Krieg, gegen Korruption und Gewalt ausspricht. <b>Preissteigerungen</b> und <b>Knappheit</b> treffen selbstredend auch Aktivist*innen, Journalist*innen und Menschenrechtler*innen.",
             "third": "Die russische Opposition hat unsere Unterstützung so dringend, wie seit Jahrzehnten nicht mehr."
         },
         "third": {
             "what_can_i_do": "Was können wir beitragen?",
-            "we_can": "Wir können  <mark>Menschenrechtsorganationen</mark>  in Russland unterstützen, wie Beispielsweise Memorial, <mark>OVD Info</mark> , <mark>LGTB-Organisationen</mark> und <mark>unabhängige linke Medien</mark> Zudem betreut auch Amnesty International mehrere Opfer staatlicher Willkür und politischer Repressionen in Russland. {hier fällt inhaltlich was, das größere politische Kontexte anspricht, Transparenz im Finanzwesen usw.}"
+            "we_can": "Wir können  <b>Menschenrechtsorganationen</b>  in Russland unterstützen, wie Beispielsweise Memorial, <b>OVD Info</b> , <b>LGTB-Organisationen</b> und <b>unabhängige linke Medien</b> Zudem betreut auch Amnesty International mehrere Opfer staatlicher Willkür und politischer Repressionen in Russland. {hier fällt inhaltlich was, das größere politische Kontexte anspricht, Transparenz im Finanzwesen usw.}"
         }
     },
     "soli" : {
