@@ -31,9 +31,7 @@ body {
 }
 
 #NavBar {
-
     background-color: rgba(23, 23, 28, 0.1);
-    backdrop-filter: blur(20px);
 }
 
 .NavButton {
@@ -1104,8 +1102,6 @@ span.alert {
         flex-direction: row;
         align-items: flex-end;
 
-        backdrop-filter: blur(0.5vw);
-
         z-index: 99;
     }
 
@@ -1502,8 +1498,6 @@ span.alert {
         justify-content: space-between;
         flex-direction: row;
         align-items: flex-end;
-
-        backdrop-filter: blur(0.5vw);
 
         z-index: 99;
     }
