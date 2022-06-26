@@ -10,13 +10,13 @@
     "splash": {
         "first": "Солидарность с демократическим сопротивлением в Российской Федерации",
         "right": {
-            "first": "В России на данный момент все <mark>лево-либеральные</mark> и <mark>правозащитные организации</mark> находятся под массивным \"обстрелом\". Многие СМИ и организации ограничили или прекратили свою работу из-за <mark>опасности</mark> для жизни и здоровья: многие, однако, <mark>продолжают</mark> . Несколько более молодые люди, особенно женщины, несмотря ни на что выбирают протест и рискуют здоровьем, физической неприкосновенностью, перспективами в образовании и работе. Им нужна наша <mark>поддержка</mark>.",
-            "second": "Европейские <mark>санкции</mark> и <mark>выход</mark> крупных международных компаний ударят по поколению, которое, скорее всего, выступит против войны, коррупции и насилия. <mark>Рост цен</mark> и <mark>дефицит</mark>, естественно, также затрагивают активистов, журналистов и правозащитников.",
+            "first": "В России на данный момент все <b>лево-либеральные</b> и <b>правозащитные организации</b> находятся под массивным \"обстрелом\". Многие СМИ и организации ограничили или прекратили свою работу из-за <b>опасности</b> для жизни и здоровья: многие, однако, <b>продолжают</b> . Несколько более молодые люди, особенно женщины, несмотря ни на что выбирают протест и рискуют здоровьем, физической неприкосновенностью, перспективами в образовании и работе. Им нужна наша <b>поддержка</b>.",
+            "second": "Европейские <b>санкции</b> и <b>выход</b> крупных международных компаний ударят по поколению, которое, скорее всего, выступит против войны, коррупции и насилия. <b>Рост цен</b> и <b>дефицит</b>, естественно, также затрагивают активистов, журналистов и правозащитников.",
             "third": "Российская оппозиция нуждается в нашей поддержке больше, чем за последние десятилетия."
         },
         "third": {
             "what_can_i_do":"Чем можем помочь мы?",
-            "we_can": "Wir können  <mark>Menschenrechtsorganationen</mark> in Russland unterstützen, wie Beispielsweise Memorial, <mark>OVD Info</mark> , <mark>LGTB-Organisationen</mark> und <mark>unabhängige linke Medien</mark> Zudem betreut auch Amnesty International mehrere Opfer staatlicher Willkür und politischer Repressionen in Russland. {hier fällt inhaltlich was, das größere politische Kontexte anspricht, Transparenz im Finanzwesen usw.}"
+            "we_can": "Wir können  <b>Menschenrechtsorganationen</b> in Russland unterstützen, wie Beispielsweise Memorial, <b>OVD Info</b> , <b>LGTB-Organisationen</b> und <b>unabhängige linke Medien</b> Zudem betreut auch Amnesty International mehrere Opfer staatlicher Willkür und politischer Repressionen in Russland."
         }
     },
 

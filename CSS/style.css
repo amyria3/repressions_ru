@@ -31,9 +31,7 @@ body {
 }
 
 #NavBar {
-
     background-color: rgba(23, 23, 28, 0.1);
-    backdrop-filter: blur(20px);
 }
 
 .NavButton {
@@ -220,6 +218,7 @@ span.alert {
     /*Navigation start*/
     #NavBar {
 
+        display: block;
         min-height: 4.8vw;
 
         position: fixed;
@@ -971,7 +970,7 @@ span.alert {
     }
 
     #splash .right {
-        grid-column-start: 2;
+        grid-column-start: 1;
         grid-column-end: 6;
         grid-row-start: 2;
         grid-row-end: 3;
@@ -1099,12 +1098,9 @@ span.alert {
         padding-bottom: 3vw;
         padding-top: 2vw;
 
-        display: flex;
         justify-content: space-between;
         flex-direction: row;
         align-items: flex-end;
-
-        backdrop-filter: blur(0.5vw);
 
         z-index: 99;
     }
@@ -1371,8 +1367,8 @@ span.alert {
     }
 
     #splash .right {
-        grid-column-start: 2;
-        grid-column-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 8;
         grid-row-start: 2;
         grid-row-end: 3;
         overflow-x: hidden;
@@ -1498,14 +1494,17 @@ span.alert {
         padding-bottom: 3vw;
         padding-top: 2vw;
 
-        display: flex;
+        display: none;
         justify-content: space-between;
         flex-direction: row;
         align-items: flex-end;
 
-        backdrop-filter: blur(0.5vw);
-
         z-index: 99;
+    }
+
+    #NavBarDiv.open {
+        display: flex;
+        left: 0;
     }
 
     #NavBar .spacer {
@@ -1860,6 +1859,7 @@ span.alert {
     }
 
     #NavBarDiv {
+        display: none;
         margin-top: 20vw;
         padding-left: 6vw;
         position: absolute;
@@ -1876,6 +1876,7 @@ span.alert {
     }
 
     #NavBarDiv.open {
+        display: flex;
         left: 0;
     }
 
